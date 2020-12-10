@@ -30,9 +30,6 @@ namespace SimpleCalculator
             }
 
             Console.WriteLine(stack.Pop());
-
-
-
         }
     }
 }
