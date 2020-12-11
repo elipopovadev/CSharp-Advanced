@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\bin\Debug\netcoreapp3.1\PrintEvenNumbers.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\bin\Debug\netcoreapp3.1\PrintEvenNumbers.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\bin\Debug\netcoreapp3.1\PrintEvenNumbers.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\bin\Debug\netcoreapp3.1\PrintEvenNumbers.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\bin\Debug\netcoreapp3.1\PrintEvenNumbers.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\bin\Debug\netcoreapp3.1\PrintEvenNumbers.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\obj\Debug\netcoreapp3.1\PrintEvenNumbers.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\obj\Debug\netcoreapp3.1\PrintEvenNumbers.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\obj\Debug\netcoreapp3.1\PrintEvenNumbers.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\obj\Debug\netcoreapp3.1\PrintEvenNumbers.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\obj\Debug\netcoreapp3.1\PrintEvenNumbers.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\obj\Debug\netcoreapp3.1\PrintEvenNumbers.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\Lab-StacksAndQueues\PrintEvenNumbers\obj\Debug\netcoreapp3.1\PrintEvenNumbers.genruntimeconfig.cache
