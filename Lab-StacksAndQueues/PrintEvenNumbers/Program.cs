@@ -18,12 +18,8 @@ namespace PrintEvenNumbers
                     queue.Enqueue(numbers[i]);
                 }
             }
-
-<<<<<<< HEAD
+            
             Console.WriteLine(string.Join(", ", queue));                    
-=======
-            Console.WriteLine(string.Join(", ", queue));                     
->>>>>>> 3ac53ba182a4cd5f58f8de0e6c929719ab98aa34
         }
     }
 }
