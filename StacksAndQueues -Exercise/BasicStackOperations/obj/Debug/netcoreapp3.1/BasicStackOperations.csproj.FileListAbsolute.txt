@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\bin\Debug\netcoreapp3.1\BasicStackOperations.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\bin\Debug\netcoreapp3.1\BasicStackOperations.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\bin\Debug\netcoreapp3.1\BasicStackOperations.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\bin\Debug\netcoreapp3.1\BasicStackOperations.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\bin\Debug\netcoreapp3.1\BasicStackOperations.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\bin\Debug\netcoreapp3.1\BasicStackOperations.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\obj\Debug\netcoreapp3.1\BasicStackOperations.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\obj\Debug\netcoreapp3.1\BasicStackOperations.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\obj\Debug\netcoreapp3.1\BasicStackOperations.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\obj\Debug\netcoreapp3.1\BasicStackOperations.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\obj\Debug\netcoreapp3.1\BasicStackOperations.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\obj\Debug\netcoreapp3.1\BasicStackOperations.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BasicStackOperations\obj\Debug\netcoreapp3.1\BasicStackOperations.genruntimeconfig.cache
