@@ -19,10 +19,7 @@ namespace PrintEvenNumbers
                 }
             }
 
-            Console.WriteLine(string.Join(", ", queue));
-          
-            
-
+            Console.WriteLine(string.Join(", ", queue));                    
         }
     }
 }
