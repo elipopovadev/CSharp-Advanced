@@ -28,7 +28,7 @@ namespace BasicStackOperations
 
             if (stack.Contains(numberToFind))
             {
-                Console.WriteLine("true");
+                Console.WriteLine(true);
             }
 
             else if(stack.Contains(numberToFind)==false && stack.Count>0)
