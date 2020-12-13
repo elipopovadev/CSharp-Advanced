@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\bin\Debug\netcoreapp3.1\SimpleTextEditor.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\bin\Debug\netcoreapp3.1\SimpleTextEditor.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\bin\Debug\netcoreapp3.1\SimpleTextEditor.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\bin\Debug\netcoreapp3.1\SimpleTextEditor.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\bin\Debug\netcoreapp3.1\SimpleTextEditor.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\bin\Debug\netcoreapp3.1\SimpleTextEditor.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\obj\Debug\netcoreapp3.1\SimpleTextEditor.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\obj\Debug\netcoreapp3.1\SimpleTextEditor.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\obj\Debug\netcoreapp3.1\SimpleTextEditor.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\obj\Debug\netcoreapp3.1\SimpleTextEditor.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\obj\Debug\netcoreapp3.1\SimpleTextEditor.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\obj\Debug\netcoreapp3.1\SimpleTextEditor.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\SimpleTextEditor\obj\Debug\netcoreapp3.1\SimpleTextEditor.genruntimeconfig.cache
