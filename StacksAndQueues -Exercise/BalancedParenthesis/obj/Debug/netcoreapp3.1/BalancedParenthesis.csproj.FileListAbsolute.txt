@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\bin\Debug\netcoreapp3.1\BalancedParenthesis.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\bin\Debug\netcoreapp3.1\BalancedParenthesis.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\bin\Debug\netcoreapp3.1\BalancedParenthesis.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\bin\Debug\netcoreapp3.1\BalancedParenthesis.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\bin\Debug\netcoreapp3.1\BalancedParenthesis.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\bin\Debug\netcoreapp3.1\BalancedParenthesis.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\obj\Debug\netcoreapp3.1\BalancedParenthesis.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\obj\Debug\netcoreapp3.1\BalancedParenthesis.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\obj\Debug\netcoreapp3.1\BalancedParenthesis.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\obj\Debug\netcoreapp3.1\BalancedParenthesis.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\obj\Debug\netcoreapp3.1\BalancedParenthesis.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\obj\Debug\netcoreapp3.1\BalancedParenthesis.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StacksAndQueues -Exercise\BalancedParenthesis\obj\Debug\netcoreapp3.1\BalancedParenthesis.genruntimeconfig.cache
