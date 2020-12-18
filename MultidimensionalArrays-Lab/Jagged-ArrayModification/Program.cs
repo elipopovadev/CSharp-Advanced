@@ -9,14 +9,12 @@ namespace Jagged_ArrayModification
         {
             int rows = int.Parse(Console.ReadLine());
             int[][] juggedArray = new int[rows][];
-
             for (int row = 0; row < rows; row++)
             {
                 int[] currentRow = Console.ReadLine().Split().Select(int.Parse).ToArray();
                 juggedArray[row] = currentRow;
             }
-            
-            
+                      
             while (true)
             {
                 string input = Console.ReadLine();
