@@ -8,28 +8,25 @@ namespace Jagged_ArrayModification
         static void Main(string[] args)
         {
             int rows = int.Parse(Console.ReadLine());
-            int cols = rows;
-            int[,] matrix = new int[rows, cols];
+            int[][] juggedArray = new int[rows][];
 
             for (int row = 0; row < rows; row++)
             {
                 int[] currentRow = Console.ReadLine().Split().Select(int.Parse).ToArray();
-                for (int col = 0; col < cols; col++)
-                {
-                    matrix[row, col] = currentRow[col];
-                }
-            }         
+                juggedArray[row] = currentRow;
+            }
+            
             
             while (true)
             {
                 string input = Console.ReadLine();
                 if (input == "END")
                 {
-                    for (int row = 0; row < matrix.GetLength(0); row++)
+                    for (int row = 0; row < juggedArray.Length; row++)
                     {
-                        for (int  col = 0;  col < matrix.GetLength(1); col++)
+                        for (int  col = 0;  col < juggedArray[row].Length; col++)
                         {
-                            Console.Write(matrix[row,col]+ " ");
+                            Console.Write(juggedArray[row][col] + " ");
                         }
 
                         Console.WriteLine();
@@ -43,7 +40,7 @@ namespace Jagged_ArrayModification
                 int rowInCommand = int.Parse(commandArray[1]);
                 int colInCommand = int.Parse(commandArray[2]);
                 int valueInCommand = int.Parse(commandArray[3]);
-                if (rowInCommand < 0 || rowInCommand >= matrix.GetLength(0) || colInCommand < 0 || colInCommand >= matrix.GetLength(1))
+                if (rowInCommand < 0 || rowInCommand >= juggedArray.Length || colInCommand < 0 || colInCommand >= juggedArray[rowInCommand].Length)
                 {
                     Console.WriteLine("Invalid coordinates");
                 }
@@ -52,12 +49,12 @@ namespace Jagged_ArrayModification
                 {
                     if (command == "Add")
                     {
-                        matrix[rowInCommand, colInCommand] += valueInCommand;
+                        juggedArray[rowInCommand] [colInCommand] += valueInCommand;
                     }
 
                     else if (command == "Subtract")
                     {
-                        matrix[rowInCommand, colInCommand] -= valueInCommand;
+                        juggedArray[rowInCommand] [colInCommand] -= valueInCommand;
                     }
                 }
             }
