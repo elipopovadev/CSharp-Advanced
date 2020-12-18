@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\bin\Debug\netcoreapp3.1\PrimaryDiagonal.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\bin\Debug\netcoreapp3.1\PrimaryDiagonal.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\bin\Debug\netcoreapp3.1\PrimaryDiagonal.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\bin\Debug\netcoreapp3.1\PrimaryDiagonal.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\bin\Debug\netcoreapp3.1\PrimaryDiagonal.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\bin\Debug\netcoreapp3.1\PrimaryDiagonal.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\obj\Debug\netcoreapp3.1\PrimaryDiagonal.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\obj\Debug\netcoreapp3.1\PrimaryDiagonal.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\obj\Debug\netcoreapp3.1\PrimaryDiagonal.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\obj\Debug\netcoreapp3.1\PrimaryDiagonal.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\obj\Debug\netcoreapp3.1\PrimaryDiagonal.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\obj\Debug\netcoreapp3.1\PrimaryDiagonal.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Lab\PrimaryDiagonal\obj\Debug\netcoreapp3.1\PrimaryDiagonal.genruntimeconfig.cache
