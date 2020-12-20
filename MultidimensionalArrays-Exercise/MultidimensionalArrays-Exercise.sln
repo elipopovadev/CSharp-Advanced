@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimensionalArrays-Exercise", "MultidimensionalArrays-Exercise\MultidimensionalArrays-Exercise.csproj", "{7CD48507-4C71-412F-8DFC-A2256E445B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifference", "DiagonalDifference\DiagonalDifference.csproj", "{4F3F5781-C86C-4989-8654-5152649C28BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CD48507-4C71-412F-8DFC-A2256E445B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD48507-4C71-412F-8DFC-A2256E445B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CD48507-4C71-412F-8DFC-A2256E445B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD48507-4C71-412F-8DFC-A2256E445B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3F5781-C86C-4989-8654-5152649C28BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3F5781-C86C-4989-8654-5152649C28BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3F5781-C86C-4989-8654-5152649C28BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3F5781-C86C-4989-8654-5152649C28BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAA23E3E-AE91-4ECF-BBC5-44099F4CE466}
+	EndGlobalSection
+EndGlobal
