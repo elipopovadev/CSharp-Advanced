@@ -25,7 +25,6 @@ namespace SquaresInMatrix
             {
                 for (int col = 0; col < matrix.GetLength(1)-1; col++)
                 {
-
                     if (matrix[row, col] == matrix[row, col + 1] &&
                         matrix[row + 1, col] == matrix[row + 1, col + 1] &&
                         matrix[row, col]== matrix[row + 1, col])                       
