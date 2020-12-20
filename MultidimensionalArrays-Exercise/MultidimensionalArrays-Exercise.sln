@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultidimensionalArrays-Exer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiagonalDifference", "DiagonalDifference\DiagonalDifference.csproj", "{4F3F5781-C86C-4989-8654-5152649C28BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquaresInMatrix", "SquaresInMatrix\SquaresInMatrix.csproj", "{AF11919E-4E47-4F3F-80B2-AF06EFB5A32F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4F3F5781-C86C-4989-8654-5152649C28BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F3F5781-C86C-4989-8654-5152649C28BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F3F5781-C86C-4989-8654-5152649C28BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF11919E-4E47-4F3F-80B2-AF06EFB5A32F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF11919E-4E47-4F3F-80B2-AF06EFB5A32F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF11919E-4E47-4F3F-80B2-AF06EFB5A32F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF11919E-4E47-4F3F-80B2-AF06EFB5A32F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
