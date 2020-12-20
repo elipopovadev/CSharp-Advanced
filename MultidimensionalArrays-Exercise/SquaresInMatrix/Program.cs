@@ -32,7 +32,6 @@ namespace SquaresInMatrix
                     {
                         countEqualSquares++;
                     }
-
                 }
             }
 
