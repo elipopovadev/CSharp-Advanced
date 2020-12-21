@@ -20,9 +20,9 @@ namespace MaximalSum
                 }
             }
 
-            int maxSum = 0;
-            int maxRow = 0;
-            int maxCol = 0;
+            int maxSum = int.MinValue;
+            int maxRow = int.MinValue;
+            int maxCol = int.MinValue;
             for (int row = 0; row < matrix.GetLength(0) - 2; row++)
             {
                 for (int col = 0; col < matrix.GetLength(1) - 2; col++)
