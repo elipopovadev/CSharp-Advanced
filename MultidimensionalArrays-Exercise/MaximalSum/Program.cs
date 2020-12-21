@@ -44,7 +44,6 @@ namespace MaximalSum
                 }
             }
 
-
             Console.WriteLine($"Sum = {maxSum}");
             for (int i = 0; i < 3; i++)
             {
