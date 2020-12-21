@@ -39,10 +39,9 @@ namespace MatrixShuffling
                    row2 >= 0 && row2 < matrix.GetLength(0) &&
                    col2 >= 0 && col2 < matrix.GetLength(1))
                 {
-                    string value1 = string.Empty;
-                    string value2 = string.Empty;
-                    value1 = matrix[row1, col1];
-                    value2 = matrix[row2, col2];
+
+                    string value1 = matrix[row1, col1];
+                    string value2 = matrix[row2, col2];
                     matrix[row1, col1] = value2;
                     matrix[row2, col2] = value1;
 
