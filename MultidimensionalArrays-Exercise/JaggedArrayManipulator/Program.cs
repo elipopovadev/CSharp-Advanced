@@ -9,13 +9,13 @@ namespace JaggedArrayManipulator
         {
             int rows = int.Parse(Console.ReadLine());
             double[][] jaggedArray = new double[rows][];
-            for (int row = 0; row < rows; row++) // read the matrix
+            for (int row = 0; row < rows; row++) // read the jaggedArray
             {
                 double[] currentRow = Console.ReadLine().Split().Select(double.Parse).ToArray();
                 jaggedArray[row] = currentRow;
             }
 
-            for (int row = 0; row < rows - 1; row++) // start analyzing the matrix
+            for (int row = 0; row < rows - 1; row++) // start analyzing the jaggedArray
             {
                 if (jaggedArray[row].Length == jaggedArray[row + 1].Length)
                 {
