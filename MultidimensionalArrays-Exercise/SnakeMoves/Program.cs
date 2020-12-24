@@ -18,8 +18,7 @@ namespace SnakeMoves
             for (int row = 0; row < rows; row++) // fill in the matrix
             {
                 for (int col = 0; col < cols; col++)
-                {
-                    
+                {                  
                     if (row % 2 == 0)
                     {
                         char currentSymbol = RollTheSnake(queueSnake);
