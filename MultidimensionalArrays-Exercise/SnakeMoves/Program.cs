@@ -41,6 +41,7 @@ namespace SnakeMoves
             PrintMatrix(matrix);
         }
 
+
         private static char RollTheSnake(Queue<char> queueSnake)
         {
             char currentSymbol = queueSnake.Dequeue();
