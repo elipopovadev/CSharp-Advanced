@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiagonalDifference", "Diago
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SquaresInMatrix", "SquaresInMatrix\SquaresInMatrix.csproj", "{AF11919E-4E47-4F3F-80B2-AF06EFB5A32F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximalSum", "MaximalSum\MaximalSum.csproj", "{0C425274-A1CA-495F-8420-37876AAA6877}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaximalSum", "MaximalSum\MaximalSum.csproj", "{0C425274-A1CA-495F-8420-37876AAA6877}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixShuffling", "MatrixShuffling\MatrixShuffling.csproj", "{3C5670EF-536B-4394-A5B5-0552B1D5585B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatrixShuffling", "MatrixShuffling\MatrixShuffling.csproj", "{3C5670EF-536B-4394-A5B5-0552B1D5585B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeMoves", "SnakeMoves\SnakeMoves.csproj", "{5A74EB26-4A15-43E2-B64E-51AE2B43501E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{3C5670EF-536B-4394-A5B5-0552B1D5585B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C5670EF-536B-4394-A5B5-0552B1D5585B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C5670EF-536B-4394-A5B5-0552B1D5585B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A74EB26-4A15-43E2-B64E-51AE2B43501E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A74EB26-4A15-43E2-B64E-51AE2B43501E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A74EB26-4A15-43E2-B64E-51AE2B43501E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A74EB26-4A15-43E2-B64E-51AE2B43501E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
