@@ -31,20 +31,17 @@ namespace BalancedParenthesis
 
                     if (lastSymbolInTheStack == '{' && currentSymbol =='}')
                     {
-                        stackOpenParentheses.Pop();
-                                             
+                        stackOpenParentheses.Pop();                                            
                     }
 
                     else if (lastSymbolInTheStack == '(' && currentSymbol == ')')
                     {
-                        stackOpenParentheses.Pop();
-                       
+                        stackOpenParentheses.Pop();                       
                     }
 
                     else if (lastSymbolInTheStack == '[' && currentSymbol == ']')
                     {
-                        stackOpenParentheses.Pop();
-                       
+                        stackOpenParentheses.Pop();                       
                     }
 
                     else
