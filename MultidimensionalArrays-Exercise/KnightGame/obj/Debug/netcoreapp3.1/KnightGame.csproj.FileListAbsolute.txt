@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\bin\Debug\netcoreapp3.1\KnightGame.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\bin\Debug\netcoreapp3.1\KnightGame.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\bin\Debug\netcoreapp3.1\KnightGame.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\bin\Debug\netcoreapp3.1\KnightGame.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\bin\Debug\netcoreapp3.1\KnightGame.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\bin\Debug\netcoreapp3.1\KnightGame.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\obj\Debug\netcoreapp3.1\KnightGame.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\obj\Debug\netcoreapp3.1\KnightGame.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\obj\Debug\netcoreapp3.1\KnightGame.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\obj\Debug\netcoreapp3.1\KnightGame.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\obj\Debug\netcoreapp3.1\KnightGame.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\obj\Debug\netcoreapp3.1\KnightGame.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\KnightGame\obj\Debug\netcoreapp3.1\KnightGame.genruntimeconfig.cache
