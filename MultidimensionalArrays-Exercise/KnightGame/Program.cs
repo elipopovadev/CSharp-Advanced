@@ -9,6 +9,7 @@ namespace KnightGame
             int rows = int.Parse(Console.ReadLine());
             int cols = rows;
             char[,] board = new char[rows, cols];
+
             for (int row = 0; row < rows; row++) // read the board
             {
                 string currentRow = Console.ReadLine();
