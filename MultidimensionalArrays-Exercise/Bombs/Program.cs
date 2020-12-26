@@ -49,6 +49,7 @@ namespace Bombs
             PrintTheMatrix(matrix);
         }
 
+
         private static void ReadTheMatrix(int rows, int cols, int[,] matrix)
         {
             for (int row = 0; row < rows; row++)
