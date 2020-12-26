@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SnakeMoves", "SnakeMoves\Sn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JaggedArrayManipulator", "JaggedArrayManipulator\JaggedArrayManipulator.csproj", "{9654FD9E-61B6-450A-941C-4AE820D434A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightGame", "KnightGame\KnightGame.csproj", "{1F566BA1-EAAA-42A9-B4BE-CFCA16FC7E2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnightGame", "KnightGame\KnightGame.csproj", "{1F566BA1-EAAA-42A9-B4BE-CFCA16FC7E2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioactiveMutantVampireBunnies", "RadioactiveMutantVampireBunnies\RadioactiveMutantVampireBunnies.csproj", "{9C34A378-E0B7-4EB1-ADB3-2329F55F78C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RadioactiveMutantVampireBunnies", "RadioactiveMutantVampireBunnies\RadioactiveMutantVampireBunnies.csproj", "{9C34A378-E0B7-4EB1-ADB3-2329F55F78C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bombs", "Bombs\Bombs.csproj", "{4E2E320D-79E0-4344-95B5-EA33968B7BEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{9C34A378-E0B7-4EB1-ADB3-2329F55F78C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C34A378-E0B7-4EB1-ADB3-2329F55F78C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C34A378-E0B7-4EB1-ADB3-2329F55F78C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E2E320D-79E0-4344-95B5-EA33968B7BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2E320D-79E0-4344-95B5-EA33968B7BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2E320D-79E0-4344-95B5-EA33968B7BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2E320D-79E0-4344-95B5-EA33968B7BEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
