@@ -9,7 +9,6 @@ namespace RadioactiveMutantVampireBunnies
         static void Main(string[] args)
         {
             int[] input = Console.ReadLine().Split().Select(int.Parse).ToArray();
-            int[] input = Console.ReadLine().Split().Select(int.Parse).ToArray();
             int rows = input[0];
             int cols = input[1];
             char[,] matrix = new char[rows, cols];
@@ -79,7 +78,7 @@ namespace RadioactiveMutantVampireBunnies
                     if (rowPlayerStart - 1 < 0) break;
                     if (rowPlayerStart - 1 >= 0)
                     {
-                        CheckForBunny(matrix, ref rowPlayerStart, ref colPlayerStart, currentRowWithPlayer, currentColWithPlayer, ref haveBunnyInTheCurrentCell);
+                        CheckForBunnyInTheCurrentCell(matrix, ref rowPlayerStart, ref colPlayerStart, currentRowWithPlayer, currentColWithPlayer, ref haveBunnyInTheCurrentCell);
                     }
                 }
 
@@ -105,7 +104,7 @@ namespace RadioactiveMutantVampireBunnies
                     if (rowPlayerStart + 1 >= rows) break;
                     if (rowPlayerStart + 1 < rows)
                     {
-                        CheckForBunny(matrix, ref rowPlayerStart, ref colPlayerStart, currentRowWithPlayer, currentColWithPlayer, ref haveBunnyInTheCurrentCell);
+                        CheckForBunnyInTheCurrentCell(matrix, ref rowPlayerStart, ref colPlayerStart, currentRowWithPlayer, currentColWithPlayer, ref haveBunnyInTheCurrentCell);
                     }
                 }
 
@@ -130,7 +129,7 @@ namespace RadioactiveMutantVampireBunnies
                     if (colPlayerStart - 1 < 0) break;
                     if (colPlayerStart - 1 >= 0)
                     {
-                        CheckForBunny(matrix, ref rowPlayerStart, ref colPlayerStart, currentRowWithPlayer, currentColWithPlayer, ref haveBunnyInTheCurrentCell);
+                        CheckForBunnyInTheCurrentCell(matrix, ref rowPlayerStart, ref colPlayerStart, currentRowWithPlayer, currentColWithPlayer, ref haveBunnyInTheCurrentCell);
                     }                
                 }
 
@@ -155,7 +154,7 @@ namespace RadioactiveMutantVampireBunnies
                     if(colPlayerStart + 1 >= cols) break;
                     if (colPlayerStart + 1 < cols)
                     {
-                        CheckForBunny(matrix, ref rowPlayerStart, ref colPlayerStart, currentRowWithPlayer, currentColWithPlayer, ref haveBunnyInTheCurrentCell);
+                        CheckForBunnyInTheCurrentCell(matrix, ref rowPlayerStart, ref colPlayerStart, currentRowWithPlayer, currentColWithPlayer, ref haveBunnyInTheCurrentCell);
                     }
                 }
 
@@ -169,7 +168,7 @@ namespace RadioactiveMutantVampireBunnies
         }
 
 
-        private static void CheckForBunny(char[,] matrix, ref int rowPlayerStart, ref int colPlayerStart, int currentRowWithPlayer, int currentColWithPlayer, ref bool haveBunnyInTheCurrentCell)
+        private static void CheckForBunnyInTheCurrentCell(char[,] matrix, ref int rowPlayerStart, ref int colPlayerStart, int currentRowWithPlayer, int currentColWithPlayer, ref bool haveBunnyInTheCurrentCell)
         {
             if (matrix[currentRowWithPlayer, currentColWithPlayer] == 'B') // bunny reached the player
             {
