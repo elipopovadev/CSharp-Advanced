@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\bin\Debug\netcoreapp3.1\Miner.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\bin\Debug\netcoreapp3.1\Miner.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\bin\Debug\netcoreapp3.1\Miner.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\bin\Debug\netcoreapp3.1\Miner.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\bin\Debug\netcoreapp3.1\Miner.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\bin\Debug\netcoreapp3.1\Miner.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\obj\Debug\netcoreapp3.1\Miner.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\obj\Debug\netcoreapp3.1\Miner.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\obj\Debug\netcoreapp3.1\Miner.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\obj\Debug\netcoreapp3.1\Miner.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\obj\Debug\netcoreapp3.1\Miner.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\obj\Debug\netcoreapp3.1\Miner.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\MultidimensionalArrays-Exercise\Miner\obj\Debug\netcoreapp3.1\Miner.genruntimeconfig.cache
