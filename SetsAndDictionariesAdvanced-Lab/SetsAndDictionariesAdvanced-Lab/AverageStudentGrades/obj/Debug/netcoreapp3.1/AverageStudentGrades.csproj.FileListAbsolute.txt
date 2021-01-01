@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\bin\Debug\netcoreapp3.1\AverageStudentGrades.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\bin\Debug\netcoreapp3.1\AverageStudentGrades.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\bin\Debug\netcoreapp3.1\AverageStudentGrades.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\bin\Debug\netcoreapp3.1\AverageStudentGrades.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\bin\Debug\netcoreapp3.1\AverageStudentGrades.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\bin\Debug\netcoreapp3.1\AverageStudentGrades.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\obj\Debug\netcoreapp3.1\AverageStudentGrades.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\obj\Debug\netcoreapp3.1\AverageStudentGrades.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\obj\Debug\netcoreapp3.1\AverageStudentGrades.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\obj\Debug\netcoreapp3.1\AverageStudentGrades.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\obj\Debug\netcoreapp3.1\AverageStudentGrades.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\obj\Debug\netcoreapp3.1\AverageStudentGrades.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Lab\SetsAndDictionariesAdvanced-Lab\AverageStudentGrades\obj\Debug\netcoreapp3.1\AverageStudentGrades.genruntimeconfig.cache
