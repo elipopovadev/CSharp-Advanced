@@ -41,7 +41,6 @@ namespace ProductShop
                     Console.WriteLine($"Product: {product}, Price: {price:F1}");
                 }
             }
-
         }
     }
 }
