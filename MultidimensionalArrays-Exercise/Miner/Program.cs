@@ -48,6 +48,8 @@ namespace Miner
                         currentRow = rowStart;
                         currentCol++;
                         break;
+                    default:
+                        break;
                 }
 
                 if (currentRow >= 0 && currentRow < rows && currentCol >= 0 && currentCol < cols)
