@@ -47,6 +47,8 @@ namespace RadioactiveMutantVampireBunnies
                     case 'R':
                         currentCol++;
                         break;
+                    default:
+                        break;
                 }
 
                 if (currentRow >= 0 && currentRow < rows && currentCol >= 0 && currentCol < cols) // the player is in the lair
