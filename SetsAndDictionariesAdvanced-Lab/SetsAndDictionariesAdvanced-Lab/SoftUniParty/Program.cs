@@ -31,9 +31,10 @@ namespace SoftUniParty
                     }
                 }
             }
+
             while (true)
             {
-               string guestComes = Console.ReadLine();
+                string guestComes = Console.ReadLine();
                 if (guestComes == "END")
                 {
                     break;
@@ -44,8 +45,8 @@ namespace SoftUniParty
             }
 
             Console.WriteLine(registrationRegular.Count + registrationVIP.Count);
-            Console.WriteLine(string.Join( Environment.NewLine, registrationVIP));
-            Console.WriteLine(string.Join(Environment.NewLine, registrationRegular));                   
-        }         
+            if (registrationVIP.Count > 0) Console.WriteLine(string.Join(Environment.NewLine, registrationVIP));
+            if (registrationRegular.Count > 0) Console.WriteLine(string.Join(Environment.NewLine, registrationRegular));
+        }
     }
 }
