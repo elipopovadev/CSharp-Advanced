@@ -43,7 +43,6 @@ namespace ParkingLot
             {
                 Console.WriteLine("Parking Lot is Empty");
             }
-
         }
     }
 }
