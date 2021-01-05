@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\bin\Debug\netcoreapp3.1\CountSymbols.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\bin\Debug\netcoreapp3.1\CountSymbols.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\bin\Debug\netcoreapp3.1\CountSymbols.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\bin\Debug\netcoreapp3.1\CountSymbols.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\bin\Debug\netcoreapp3.1\CountSymbols.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\bin\Debug\netcoreapp3.1\CountSymbols.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\obj\Debug\netcoreapp3.1\CountSymbols.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\obj\Debug\netcoreapp3.1\CountSymbols.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\obj\Debug\netcoreapp3.1\CountSymbols.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\obj\Debug\netcoreapp3.1\CountSymbols.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\obj\Debug\netcoreapp3.1\CountSymbols.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\obj\Debug\netcoreapp3.1\CountSymbols.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\CountSymbols\obj\Debug\netcoreapp3.1\CountSymbols.genruntimeconfig.cache
