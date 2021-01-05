@@ -15,7 +15,7 @@ namespace EvenTimes
                 int number = int.Parse(Console.ReadLine());
                 if (!dictNumberTimes.ContainsKey(number))
                 {                 
-                    dictNumberTimes.Add(number,1);
+                    dictNumberTimes.Add(number, 1);
                 }
 
                 else
@@ -24,8 +24,8 @@ namespace EvenTimes
                 }
             }
 
-            var result = dictNumberTimes.Where(x => x.Value % 2 == 0).Select(x=> x.Key);
-            Console.WriteLine(string.Join(" ", result));
+            var result = dictNumberTimes.Where(x => x.Value % 2 == 0).Select(x=> x.Key).First();
+            Console.WriteLine(result);
         }
     }
 }
