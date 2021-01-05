@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniqueUsernames", "UniqueUsernames\UniqueUsernames.csproj", "{D006D026-97F1-4F73-BD4B-B040B0682F14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UniqueUsernames", "UniqueUsernames\UniqueUsernames.csproj", "{D006D026-97F1-4F73-BD4B-B040B0682F14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetsOfElements", "SetsOfElements\SetsOfElements.csproj", "{6BDF00F2-9650-48DA-9AF5-A800D9A84C19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SetsOfElements", "SetsOfElements\SetsOfElements.csproj", "{6BDF00F2-9650-48DA-9AF5-A800D9A84C19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeriodicTable", "PeriodicTable\PeriodicTable.csproj", "{BFF41E0B-DEC7-4D66-B0E7-34B6F291808A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeriodicTable", "PeriodicTable\PeriodicTable.csproj", "{BFF41E0B-DEC7-4D66-B0E7-34B6F291808A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenTimes", "EvenTimes\EvenTimes.csproj", "{1751A8E7-D9EB-40B2-9EDC-62C85125F5B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenTimes", "EvenTimes\EvenTimes.csproj", "{1751A8E7-D9EB-40B2-9EDC-62C85125F5B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountSymbols", "CountSymbols\CountSymbols.csproj", "{31910FFC-C36E-41C4-8CAD-71E7809813BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountSymbols", "CountSymbols\CountSymbols.csproj", "{31910FFC-C36E-41C4-8CAD-71E7809813BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wardrobe", "Wardrobe\Wardrobe.csproj", "{3EC776C7-31FA-45BF-ADD6-D75387AFC0EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Wardrobe", "Wardrobe\Wardrobe.csproj", "{3EC776C7-31FA-45BF-ADD6-D75387AFC0EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheV-Logger", "TheV-Logger\TheV-Logger.csproj", "{61ADC132-431F-415D-8AE0-36209BB52416}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{3EC776C7-31FA-45BF-ADD6-D75387AFC0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EC776C7-31FA-45BF-ADD6-D75387AFC0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EC776C7-31FA-45BF-ADD6-D75387AFC0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61ADC132-431F-415D-8AE0-36209BB52416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61ADC132-431F-415D-8AE0-36209BB52416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61ADC132-431F-415D-8AE0-36209BB52416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61ADC132-431F-415D-8AE0-36209BB52416}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
