@@ -37,7 +37,16 @@ namespace Wardrobe
             string[] inputLookingFor = Console.ReadLine().Split();
             string colorLookingFor = inputLookingFor[0];
             string clothLookingFor = inputLookingFor[1];
-           
+            foreach (var (color, clothesCount) in dictColorClothesCount)
+            {
+                Console.WriteLine($"{color} clothes:");
+                foreach (var (cloth, count) in clothesCount)
+                {
+                    Console.WriteLine(color != colorLookingFor || cloth != clothLookingFor
+                        ? $"* {cloth} - {count}"
+                        : $" * {cloth} - {count} (found!)");
+                }
+            }
         }
     }
 }
