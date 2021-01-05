@@ -25,8 +25,8 @@ namespace SetsOfElements
                 secondSet.Add(number);
             }
 
-            var thirdSet= firstSet.Intersect(secondSet);
-            Console.WriteLine(string.Join(" ",thirdSet));
+            var intersection= firstSet.Intersect(secondSet);
+            Console.WriteLine(string.Join(" ", intersection));
         }
     }
 }
