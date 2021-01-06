@@ -8,7 +8,7 @@ namespace TheV_Logger
     {
         static void Main(string[] args)
         {
-            var setOfVloggers = new HashSet<Vlogger>();
+            var listOfVloggers = new List<Vlogger>();
             while (true)
             {
                 string[] input = Console.ReadLine().Split();
@@ -17,14 +17,14 @@ namespace TheV_Logger
                     break;
                 }
 
-
                 if (input[1] == "joined")
                 {
                     string name = input[0];
                     var newVlogger = new Vlogger(name);
-                    setOfVloggers.Add(newVlogger);
+                    if (listOfVloggers.Any(x=>x.Name==name)) break;
+                    listOfVloggers.Add(newVlogger);
                     newVlogger.Name = name;
-                    newVlogger.Followers = new SortedSet<string>();
+                    newVlogger.Followers = new HashSet<string>();
                     newVlogger.Following = new HashSet<string>();
                    
                 }
@@ -34,35 +34,46 @@ namespace TheV_Logger
                     var firstVlogger = input[0];
                     var secondVlogger = input[2];
                     if (firstVlogger == secondVlogger) continue;
-                    if (setOfVloggers.Any(x => x.Name == firstVlogger) && setOfVloggers.Any(x => x.Name == secondVlogger))
+                    if (listOfVloggers.Any(x => x.Name == firstVlogger) && listOfVloggers.Any(x => x.Name == secondVlogger))
                     {
-                        Vlogger findFirsVlogger = setOfVloggers.First(v => v.Name == firstVlogger);
+                        Vlogger findFirsVlogger = listOfVloggers.First(v => v.Name == firstVlogger);
                         findFirsVlogger.AddFollowing(secondVlogger);
-                        Vlogger findSecondVlogger = setOfVloggers.First(v => v.Name == secondVlogger);
+                        Vlogger findSecondVlogger = listOfVloggers.First(v => v.Name == secondVlogger);
                         findSecondVlogger.AddFollower(firstVlogger);
                     }                     
                 }
             }
 
+            Console.WriteLine($"The V-Logger has a total of {listOfVloggers.Count} vloggers in its logs.");
+            var famousVlogger = listOfVloggers.OrderByDescending(x => x.Followers.Count).ThenBy(x => x.Following.Count).First();
+            Console.WriteLine($"1. {famousVlogger.Name} : {famousVlogger.Followers.Count} followers, {famousVlogger.Following.Count} following");
+            foreach (var follower in famousVlogger.Followers.OrderBy(x=>x))
+            {
+                Console.WriteLine($"*  {follower}");
+            }
 
+            listOfVloggers.Remove(famousVlogger);
+            int count = 2;
+            foreach (var vlogger in listOfVloggers.OrderByDescending(x=>x.Followers.Count()).ThenBy(x=>x.Following.Count()))
+            {
+                Console.WriteLine($"{count}. {vlogger.Name} : {vlogger.Followers.Count} followers, {vlogger.Following.Count} following");
+                count++;
+            }
         }
-
-
-
-
     }
 }
+
 
 public class Vlogger
 {
     public string Name { get; set; }
-    public SortedSet<string> Followers { get; set; }
+    public HashSet<string> Followers { get; set; }
     public HashSet<string> Following { get; set; }
 
     public Vlogger(string name)
     {
         this.Name = Name;
-        this.Followers = new SortedSet<string>();
+        this.Followers = new HashSet<string>();
         this.Following = new HashSet<string>();
     }
 
