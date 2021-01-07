@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\bin\Debug\netcoreapp3.1\Judge-withClass.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\bin\Debug\netcoreapp3.1\Judge-withClass.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\bin\Debug\netcoreapp3.1\Judge-withClass.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\bin\Debug\netcoreapp3.1\Judge-withClass.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\bin\Debug\netcoreapp3.1\Judge-withClass.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\bin\Debug\netcoreapp3.1\Judge-withClass.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\obj\Debug\netcoreapp3.1\Judge-withClass.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\obj\Debug\netcoreapp3.1\Judge-withClass.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\obj\Debug\netcoreapp3.1\Judge-withClass.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\obj\Debug\netcoreapp3.1\Judge-withClass.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\obj\Debug\netcoreapp3.1\Judge-withClass.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\obj\Debug\netcoreapp3.1\Judge-withClass.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\SetsAndDictionariesAdvanced-Exercise\Judge-withClass\obj\Debug\netcoreapp3.1\Judge-withClass.genruntimeconfig.cache

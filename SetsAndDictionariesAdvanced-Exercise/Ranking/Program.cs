@@ -63,30 +63,20 @@ namespace Ranking
 
                             else
                             {
-                                if(findTheStudent.ContestsWithPoints[contest] < points)
+                                if (findTheStudent.ContestsWithPoints[contest] < points)
                                 {
                                     findTheStudent.ContestsWithPoints[contest] = points;
                                 }
                             }
                         }
                     }
-                }           
-            }
-
-            var bestCandidate = listWithStudents.OrderByDescending(x => x.ContestsWithPoints.Values.Sum()).First();
-            Console.WriteLine($"Best candidate is {bestCandidate.Name} with total {bestCandidate.ContestsWithPoints.Values.Sum()} points.");
-            Console.WriteLine("Ranking:");
-            foreach (var student in listWithStudents.OrderBy(x=>x.Name))
-            {
-                Console.WriteLine(student.Name);
-                foreach (var (contest, points) in student.ContestsWithPoints.OrderByDescending(x=>x.Value))
-                {
-                    Console.WriteLine($"#  {contest} -> {points}");
                 }
             }
+
+            PrintTheRanking(listWithStudents);
         }
 
-
+        
         public class Student
         {
             public string Name { get; set; }
@@ -96,6 +86,21 @@ namespace Ranking
             {
                 this.Name = name;
                 this.ContestsWithPoints = new Dictionary<string, int>();
+            }
+        }
+
+        private static void PrintTheRanking(List<Student> listWithStudents)
+        {
+            var bestCandidate = listWithStudents.OrderByDescending(x => x.ContestsWithPoints.Values.Sum()).First();
+            Console.WriteLine($"Best candidate is {bestCandidate.Name} with total {bestCandidate.ContestsWithPoints.Values.Sum()} points.");
+            Console.WriteLine("Ranking:");
+            foreach (var student in listWithStudents.OrderBy(x => x.Name))
+            {
+                Console.WriteLine(student.Name);
+                foreach (var (contest, points) in student.ContestsWithPoints.OrderByDescending(x => x.Value))
+                {
+                    Console.WriteLine($"#  {contest} -> {points}");
+                }
             }
         }
     }
