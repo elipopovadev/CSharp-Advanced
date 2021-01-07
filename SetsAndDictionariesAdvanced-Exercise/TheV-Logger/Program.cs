@@ -21,12 +21,15 @@ namespace TheV_Logger
                 {
                     string name = input[0];
                     var newVlogger = new Vlogger(name);
-                    if (listOfVloggers.Any(x=>x.Name==name)) break;
+                    if (listOfVloggers.Any(x => x.Name == name))
+                    {
+                        continue;
+                    }
+
                     listOfVloggers.Add(newVlogger);
                     newVlogger.Name = name;
                     newVlogger.Followers = new HashSet<string>();
                     newVlogger.Following = new HashSet<string>();
-                   
                 }
 
                 else if (input[1] == "followed")
@@ -40,24 +43,27 @@ namespace TheV_Logger
                         findFirsVlogger.AddFollowing(secondVlogger);
                         Vlogger findSecondVlogger = listOfVloggers.First(v => v.Name == secondVlogger);
                         findSecondVlogger.AddFollower(firstVlogger);
-                    }                     
+                    }
                 }
             }
 
             Console.WriteLine($"The V-Logger has a total of {listOfVloggers.Count} vloggers in its logs.");
             var famousVlogger = listOfVloggers.OrderByDescending(x => x.Followers.Count).ThenBy(x => x.Following.Count).First();
-            Console.WriteLine($"1. {famousVlogger.Name} : {famousVlogger.Followers.Count} followers, {famousVlogger.Following.Count} following");
-            foreach (var follower in famousVlogger.Followers.OrderBy(x=>x))
+            if (famousVlogger.Followers.Count > 0)
             {
-                Console.WriteLine($"*  {follower}");
-            }
+                Console.WriteLine($"1. {famousVlogger.Name} : {famousVlogger.Followers.Count} followers, {famousVlogger.Following.Count} following");
+                foreach (var follower in famousVlogger.Followers.OrderBy(x => x))
+                {
+                    Console.WriteLine($"*  {follower}");
+                }
 
-            listOfVloggers.Remove(famousVlogger);
-            int count = 2;
-            foreach (var vlogger in listOfVloggers.OrderByDescending(x=>x.Followers.Count()).ThenBy(x=>x.Following.Count()))
-            {
-                Console.WriteLine($"{count}. {vlogger.Name} : {vlogger.Followers.Count} followers, {vlogger.Following.Count} following");
-                count++;
+                listOfVloggers.Remove(famousVlogger);
+                int count = 2;
+                foreach (var vlogger in listOfVloggers.OrderByDescending(x => x.Followers.Count()).ThenBy(x => x.Following.Count()))
+                {
+                    Console.WriteLine($"{count}. {vlogger.Name} : {vlogger.Followers.Count} followers, {vlogger.Following.Count} following");
+                    count++;
+                }
             }
         }
     }
