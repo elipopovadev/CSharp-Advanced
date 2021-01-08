@@ -35,21 +35,13 @@ namespace Judge_withClass
                 else if (listOfContests.Any(x => x.Name == contest))
                 {
                     Contest foundContest = listOfContests.First(x => x.Name == contest);
-                    if (!foundContest.StudentsWithPoints.Any(x=>x.Key==student))
-                    {                      
+                    if (!foundContest.StudentsWithPoints.Any(x => x.Key == student))
+                    {
                         foundContest.StudentsWithPoints.Add(student, points);
-                        if (!dictStudentTotalPoints.ContainsKey(student))
-                        {
-                            dictStudentTotalPoints[student] = points;
-                        }
-
-                        else
-                        {
-                            dictStudentTotalPoints[student] += points;
-                        }
+                        CheckIfDictionaryContainsStudent(dictStudentTotalPoints, student, points);
                     }
 
-                    else if (foundContest.StudentsWithPoints.Any(x=>x.Key==student))
+                    else if (foundContest.StudentsWithPoints.Any(x => x.Key == student))
                     {
                         if (foundContest.StudentsWithPoints[student] < points)
                         {
@@ -70,23 +62,32 @@ namespace Judge_withClass
                 }
             }
 
+            PrintContestsWithStudents(listOfContests);
+            PrintUsersWithPoints(dictStudentTotalPoints);
+        }
+
+        private static void PrintUsersWithPoints(Dictionary<string, int> dictStudentTotalPoints)
+        {
+            Console.WriteLine("Individual standings:");
+            int count = 1;
+            foreach (var (student, totalPoints) in dictStudentTotalPoints.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
+            {
+                Console.WriteLine($"{count}. {student} -> {totalPoints}");
+                count++;
+            }
+        }
+
+        private static void PrintContestsWithStudents(List<Contest> listOfContests)
+        {
             foreach (var contest in listOfContests)
             {
                 Console.WriteLine($"{contest.Name}: {contest.StudentsWithPoints.Keys.Count()} participants");
                 int firstCount = 1;
-                foreach (var (student, points) in contest.StudentsWithPoints.OrderByDescending(x=>x.Value).ThenBy(x=>x.Key))
+                foreach (var (student, points) in contest.StudentsWithPoints.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
                 {
                     Console.WriteLine($"{firstCount}. {student} <::> {points}");
                     firstCount++;
                 }
-            }
-
-            Console.WriteLine("Individual standings:");
-            int count = 1;
-            foreach (var (student,totalPoints) in dictStudentTotalPoints.OrderByDescending(x=>x.Value).ThenBy(x=>x.Key))
-            {           
-                Console.WriteLine($"{count}. {student} -> {totalPoints}");
-                count++;
             }
         }
 
