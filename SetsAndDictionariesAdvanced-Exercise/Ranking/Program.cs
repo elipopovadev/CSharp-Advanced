@@ -12,7 +12,7 @@ namespace Ranking
             var listWithStudents = new List<Student>();
             string input;
             while ((input = Console.ReadLine()) != "end of contests")
-            {              
+            {
                 string[] inputArray = input.Split(":");
                 string contest = inputArray[0];
                 string password = inputArray[1];
@@ -23,49 +23,50 @@ namespace Ranking
             }
 
             while ((input = Console.ReadLine()) != "end of submissions")
-            {             
+            {
                 string[] inputArray = input.Split("=>");
                 string contest = inputArray[0];
                 string password = inputArray[1];
                 string student = inputArray[2];
                 int points = int.Parse(inputArray[3]);
-                if (dictContestPassword.ContainsKey(contest)) // valid contest
+                if (!dictContestPassword.ContainsKey(contest) || dictContestPassword[contest] != password)
                 {
-                    if (dictContestPassword[contest] == password) // valid password
+                    continue;
+                }
+
+                if (!listWithStudents.Any(x => x.Name == student))
+                {
+                    var newStudent = new Student(student);
+                    newStudent.Name = student;
+                    newStudent.ContestsWithPoints = new Dictionary<string, int>();
+                    newStudent.ContestsWithPoints.Add(contest, points);
+                    listWithStudents.Add(newStudent);
+                }
+
+                else if (listWithStudents.Any(x => x.Name == student))
+                {
+                    var findTheStudent = listWithStudents.First(x => x.Name == student);
+                    if (!findTheStudent.ContestsWithPoints.Any(x => x.Key == contest))
                     {
-                        if (!listWithStudents.Any(x => x.Name == student))
-                        {
-                            var newStudent = new Student(student);
-                            newStudent.Name = student;
-                            newStudent.ContestsWithPoints = new Dictionary<string, int>();
-                            newStudent.ContestsWithPoints.Add(contest, points);
-                            listWithStudents.Add(newStudent);
-                        }
+                        findTheStudent.ContestsWithPoints.Add(contest, points);
+                    }
 
-                        else if (listWithStudents.Any(x => x.Name == student))
+                    else
+                    {
+                        if (findTheStudent.ContestsWithPoints[contest] < points)
                         {
-                            var findTheStudent = listWithStudents.First(x => x.Name == student);
-                            if (!findTheStudent.ContestsWithPoints.Any(x => x.Key == contest))
-                            {
-                                findTheStudent.ContestsWithPoints.Add(contest, points);
-                            }
-
-                            else
-                            {
-                                if (findTheStudent.ContestsWithPoints[contest] < points)
-                                {
-                                    findTheStudent.ContestsWithPoints[contest] = points;
-                                }
-                            }
+                            findTheStudent.ContestsWithPoints[contest] = points;
                         }
                     }
                 }
+
+
             }
 
             PrintTheRanking(listWithStudents);
         }
 
-        
+
         public class Student
         {
             public string Name { get; set; }
