@@ -10,14 +10,9 @@ namespace Judge_withClass
         {
             var listOfContests = new List<Contest>();
             var dictStudentTotalPoints = new Dictionary<string, int>();
-            while (true)
-            {
-                string input = Console.ReadLine();
-                if (input == "no more time")
-                {
-                    break;
-                }
-
+            string input;
+            while ((input=Console.ReadLine())!="no more time")
+            {              
                 string[] inputArray = input.Split(" -> ");
                 string student = inputArray[0];
                 string contest = inputArray[1];
@@ -67,18 +62,6 @@ namespace Judge_withClass
         }
 
 
-        public class Contest
-        {
-            public string Name { get; set; }
-            public Dictionary<string, int> StudentsWithPoints { get; set; }
-
-            public Contest(string name)
-            {
-                this.Name = Name;
-                this.StudentsWithPoints = new Dictionary<string, int>();
-            }
-        }
-
         private static void PrintUsersWithPoints(Dictionary<string, int> dictStudentTotalPoints)
         {
             Console.WriteLine("Individual standings:");
@@ -115,6 +98,18 @@ namespace Judge_withClass
             {
                 dictStudentTotalPoints[student] += points;
             }
-        }     
+        }
+
+        public class Contest
+        {
+            public string Name { get; set; }
+            public Dictionary<string, int> StudentsWithPoints { get; set; }
+
+            public Contest(string name)
+            {
+                this.Name = Name;
+                this.StudentsWithPoints = new Dictionary<string, int>();
+            }
+        }
     }
 }
