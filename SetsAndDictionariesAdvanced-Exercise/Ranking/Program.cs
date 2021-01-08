@@ -10,14 +10,9 @@ namespace Ranking
         {
             var dictContestPassword = new Dictionary<string, string>();
             var listWithStudents = new List<Student>();
-            while (true)
-            {
-                string input = Console.ReadLine();
-                if (input == "end of contests")
-                {
-                    break;
-                }
-
+            string input;
+            while ((input = Console.ReadLine()) != "end of contests")
+            {              
                 string[] inputArray = input.Split(":");
                 string contest = inputArray[0];
                 string password = inputArray[1];
@@ -27,14 +22,8 @@ namespace Ranking
                 }
             }
 
-            while (true)
-            {
-                string input = Console.ReadLine();
-                if (input == "end of submissions")
-                {
-                    break;
-                }
-
+            while ((input = Console.ReadLine()) != "end of submissions")
+            {             
                 string[] inputArray = input.Split("=>");
                 string contest = inputArray[0];
                 string password = inputArray[1];
