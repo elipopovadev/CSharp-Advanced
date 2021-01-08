@@ -24,7 +24,7 @@ namespace Judge_withClass
                     newContest.StudentsWithPoints = new Dictionary<string, int>();
                     newContest.StudentsWithPoints.Add(student, points);
                     listOfContests.Add(newContest);
-                    CheckIfDictionaryContainsStudent(dictStudentTotalPoints, student, points);
+                    CheckIfdictStudentsTotalPointsContainsStudent(dictStudentTotalPoints, student, points);
                 }
 
                 else if (listOfContests.Any(x => x.Name == contest))
@@ -33,7 +33,7 @@ namespace Judge_withClass
                     if (!foundContest.StudentsWithPoints.Any(x => x.Key == student))
                     {
                         foundContest.StudentsWithPoints.Add(student, points);
-                        CheckIfDictionaryContainsStudent(dictStudentTotalPoints, student, points);
+                        CheckIfdictStudentsTotalPointsContainsStudent(dictStudentTotalPoints, student, points);
                     }
 
                     else if (foundContest.StudentsWithPoints.Any(x => x.Key == student))
@@ -87,7 +87,7 @@ namespace Judge_withClass
             }
         }
 
-        private static void CheckIfDictionaryContainsStudent(Dictionary<string, int> dictStudentTotalPoints, string student, int points)
+        private static void CheckIfdictStudentsTotalPointsContainsStudent(Dictionary<string, int> dictStudentTotalPoints, string student, int points)
         {
             if (!dictStudentTotalPoints.ContainsKey(student))
             {
