@@ -66,6 +66,19 @@ namespace Judge_withClass
             PrintUsersWithPoints(dictStudentTotalPoints);
         }
 
+
+        public class Contest
+        {
+            public string Name { get; set; }
+            public Dictionary<string, int> StudentsWithPoints { get; set; }
+
+            public Contest(string name)
+            {
+                this.Name = Name;
+                this.StudentsWithPoints = new Dictionary<string, int>();
+            }
+        }
+
         private static void PrintUsersWithPoints(Dictionary<string, int> dictStudentTotalPoints)
         {
             Console.WriteLine("Individual standings:");
@@ -102,18 +115,6 @@ namespace Judge_withClass
             {
                 dictStudentTotalPoints[student] += points;
             }
-        }
-
-        public class Contest
-        {
-            public string Name { get; set; }
-            public Dictionary<string, int> StudentsWithPoints { get; set; }
-
-            public Contest(string name)
-            {
-                this.Name = Name;
-                this.StudentsWithPoints = new Dictionary<string, int>();
-            }
-        }
+        }     
     }
 }
