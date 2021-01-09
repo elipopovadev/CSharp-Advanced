@@ -12,20 +12,15 @@ namespace Crossroads
             int initialGreenLightSeconds = greenLightSeconds;
             int initialFreeWindowSeconds = freeWindowSeconds;
             var queueForAllCars = new Queue<string>();
-            string input = Console.ReadLine();
             int countPassedCars = 0;
-            while (true)
-            {
-                if (input == "END")
-                {
-                    break;
-                }
-
-                else if (input == "green" == false)
+            string input;
+            while ((input=Console.ReadLine())!="END")
+            {          
+                if (input != "green")
                 {
                     string car = input;
                     queueForAllCars.Enqueue(car);
-                    input = Console.ReadLine();
+                    continue;
                 }
 
                 if (input == "green")
@@ -67,8 +62,6 @@ namespace Crossroads
                             }
                         }
                     }
-
-                    input = Console.ReadLine();
                 }
             }
 
