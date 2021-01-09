@@ -20,14 +20,9 @@ namespace MatrixShuffling
                 }
             }
 
-            while (true)
-            {
-                string command = Console.ReadLine();
-                if (command == "END")
-                {
-                    break;
-                }
-
+            string command;
+            while ((command=Console.ReadLine())!="END")
+            {             
                 string[] commandArray = command.Split(" ", StringSplitOptions.RemoveEmptyEntries).ToArray();
                 if (commandArray[0] == "swap" &&
                    int.TryParse(commandArray[1], out int row1) &&
