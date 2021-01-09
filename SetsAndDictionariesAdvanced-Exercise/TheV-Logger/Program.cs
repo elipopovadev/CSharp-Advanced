@@ -12,7 +12,7 @@ namespace TheV_Logger
             string input;
             while ((input=Console.ReadLine())!="Statistics")
             {
-                string[] inputArray = Console.ReadLine().Split();
+                string[] inputArray = input.Split();
                 if (inputArray[1] == "joined")
                 {
                     string name = inputArray[0];
