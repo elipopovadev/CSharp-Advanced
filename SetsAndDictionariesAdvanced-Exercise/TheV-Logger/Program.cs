@@ -9,17 +9,13 @@ namespace TheV_Logger
         static void Main(string[] args)
         {
             var listOfVloggers = new List<Vlogger>();
-            while (true)
+            string input;
+            while ((input=Console.ReadLine())!="Statistics")
             {
-                string[] input = Console.ReadLine().Split();
-                if (input[0] == "Statistics")
+                string[] inputArray = Console.ReadLine().Split();
+                if (inputArray[1] == "joined")
                 {
-                    break;
-                }
-
-                if (input[1] == "joined")
-                {
-                    string name = input[0];
+                    string name = inputArray[0];
                     var newVlogger = new Vlogger(name);
                     if (listOfVloggers.Any(x => x.Name == name))
                     {
@@ -32,10 +28,10 @@ namespace TheV_Logger
                     newVlogger.Following = new HashSet<string>();
                 }
 
-                else if (input[1] == "followed")
+                else if (inputArray[1] == "followed")
                 {
-                    var firstVlogger = input[0];
-                    var secondVlogger = input[2];
+                    var firstVlogger = inputArray[0];
+                    var secondVlogger = inputArray[2];
                     if (firstVlogger == secondVlogger) continue;
                     if (listOfVloggers.Any(x => x.Name == firstVlogger) && listOfVloggers.Any(x => x.Name == secondVlogger))
                     {
