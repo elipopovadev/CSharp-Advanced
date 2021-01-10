@@ -8,7 +8,7 @@ namespace MOBAChallenger_withClass
     {
         static void Main(string[] args)
         {
-            var dictPlayerPositionSkill = new Dictionary<string, Player>();
+            var dictNamePlayer = new Dictionary<string, Player>();
             string command;
             while ((command = Console.ReadLine()) != "Season end")
             {
@@ -18,25 +18,25 @@ namespace MOBAChallenger_withClass
                     string playerName = commandArray[0];
                     string position = commandArray[1];
                     int skill = int.Parse(commandArray[2]);
-                    if (!dictPlayerPositionSkill.ContainsKey(playerName))
+                    if (!dictNamePlayer.ContainsKey(playerName))
                     {
                         var newPlayer = new Player(playerName);
                         newPlayer.Name = playerName;
                         newPlayer.DictPositionSkill = new Dictionary<string, int>();
                         newPlayer.DictPositionSkill.Add(position, skill);
-                        dictPlayerPositionSkill.Add(playerName, newPlayer);
+                        dictNamePlayer.Add(playerName, newPlayer);
                     }
 
-                    else if (dictPlayerPositionSkill.ContainsKey(playerName))
+                    else if (dictNamePlayer.ContainsKey(playerName))
                     {
-                        if (!dictPlayerPositionSkill[playerName].DictPositionSkill.ContainsKey(position))
+                        if (!dictNamePlayer[playerName].DictPositionSkill.ContainsKey(position))
                         {
-                            dictPlayerPositionSkill[playerName].DictPositionSkill.Add(position, skill);
+                            dictNamePlayer[playerName].DictPositionSkill.Add(position, skill);
                         }
 
-                        else if (dictPlayerPositionSkill[playerName].DictPositionSkill[position] < skill)
+                        else if (dictNamePlayer[playerName].DictPositionSkill[position] < skill)
                         {
-                            dictPlayerPositionSkill[playerName].DictPositionSkill[position] = skill;
+                            dictNamePlayer[playerName].DictPositionSkill[position] = skill;
                         }
                     }
                 }
@@ -46,16 +46,16 @@ namespace MOBAChallenger_withClass
                     string[] commandArray = command.Split(' ');
                     string firstPlayer = commandArray[0];
                     string secondPlayer = commandArray[2];
-                    if (!dictPlayerPositionSkill.ContainsKey(firstPlayer) || !dictPlayerPositionSkill.ContainsKey(secondPlayer))
+                    if (!dictNamePlayer.ContainsKey(firstPlayer) || !dictNamePlayer.ContainsKey(secondPlayer))
                     {
                         continue;
                     }
 
                     bool firstPlayerIsWinner = false;
                     bool secondPlayerIsWinner = false;
-                    foreach (var (position1, skill1) in dictPlayerPositionSkill[firstPlayer].DictPositionSkill)
+                    foreach (var (position1, skill1) in dictNamePlayer[firstPlayer].DictPositionSkill)
                     {
-                        foreach (var (position2, skill2) in dictPlayerPositionSkill[secondPlayer].DictPositionSkill)
+                        foreach (var (position2, skill2) in dictNamePlayer[secondPlayer].DictPositionSkill)
                         {
                             if (position1 == position2 && skill1 > skill2)
                             {
@@ -81,12 +81,13 @@ namespace MOBAChallenger_withClass
                         continue;
                     }
 
-                    CheckWhoIsTheWinnerAndRemoveLoser(dictPlayerPositionSkill, firstPlayer, secondPlayer, firstPlayerIsWinner, secondPlayerIsWinner);
+                    CheckWhoIsTheWinnerAndRemoveLoser(dictNamePlayer, firstPlayer, secondPlayer, firstPlayerIsWinner, secondPlayerIsWinner);
                 }
             }
 
-            PrintResult(dictPlayerPositionSkill);
+            PrintResult(dictNamePlayer);
         }
+
 
 
         private static void CheckWhoIsTheWinnerAndRemoveLoser(Dictionary<string, Player> dictPlayerPositionSkill, string firstPlayer, string secondPlayer, bool firstPlayerIsWinner, bool secondPlayerIsWinner)
@@ -102,32 +103,33 @@ namespace MOBAChallenger_withClass
             }
         }
 
-        private static void PrintResult(Dictionary<string, Player> dictPlayerPositionSkill)
+        private static void PrintResult(Dictionary<string, Player> dictNamePlayer)
         {
-            foreach (var (currentPlayer, positionSkill) in dictPlayerPositionSkill
+            foreach (var (currentName, currentPlayer) in dictNamePlayer
                 .OrderByDescending(x => x.Value.DictPositionSkill.Values.Sum()).ThenBy(x => x.Key))
             {
 
-                Console.WriteLine($"{currentPlayer}: {dictPlayerPositionSkill[currentPlayer].DictPositionSkill.Values.Sum()} skill");
-                foreach (var (position, skill) in dictPlayerPositionSkill[currentPlayer].DictPositionSkill
+                Console.WriteLine($"{currentName}: {currentPlayer.DictPositionSkill.Values.Sum()} skill");
+                foreach (var (position, skill) in currentPlayer.DictPositionSkill
                     .OrderByDescending(x => x.Value).ThenBy(x => x.Key))
                 {
                     Console.WriteLine($"- {position} <::> {skill}");
                 }
             }
         }
+
+
+        class Player
+        {
+            public string Name { get; set; }
+            public Dictionary<string, int> DictPositionSkill { get; set; }
+
+            public Player(string name)
+            {
+                this.Name = name;
+                this.DictPositionSkill = new Dictionary<string, int>();
+            }
+        }
+
     }
 }
-
-class Player
-{
-    public string Name { get; set; }
-    public Dictionary<string, int> DictPositionSkill { get; set; }
-
-    public Player(string name)
-    {
-        this.Name = name;
-        this.DictPositionSkill = new Dictionary<string, int>();
-    }
-}
-
