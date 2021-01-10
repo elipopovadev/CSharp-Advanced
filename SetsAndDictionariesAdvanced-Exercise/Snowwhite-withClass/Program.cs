@@ -19,20 +19,14 @@ namespace Snowwhite_withClass
                 int physic = int.Parse(inputArray[2]);
                 if (!dictHatColourDwarf.ContainsKey(hatColour))
                 {
-                    Dwarf newDwarf = new Dwarf(hatColour);
-                    newDwarf.HatColour = hatColour;
-                    newDwarf.Name = name;
-                    newDwarf.Physic = physic;
+                    Dwarf newDwarf = CreateNewDworf(name, hatColour, physic);
                     dictHatColourDwarf[hatColour] = new List<Dwarf>();
                     dictHatColourDwarf[hatColour].Add(newDwarf);
                 }
 
                 else if (dictHatColourDwarf.ContainsKey(hatColour) && !dictHatColourDwarf[hatColour].Any(x => x.Name == name))
                 {
-                    Dwarf newDwarf = new Dwarf(hatColour);
-                    newDwarf.HatColour = hatColour;
-                    newDwarf.Name = name;
-                    newDwarf.Physic = physic;
+                    Dwarf newDwarf = CreateNewDworf(name, hatColour, physic);
                     dictHatColourDwarf[hatColour].Add(newDwarf);
                 }
 
@@ -49,6 +43,14 @@ namespace Snowwhite_withClass
             PrintSortedDwarfs(dictHatColourDwarf);
         }
 
+        private static Dwarf CreateNewDworf(string name, string hatColour, int physic)
+        {
+            Dwarf newDwarf = new Dwarf(hatColour);
+            newDwarf.HatColour = hatColour;
+            newDwarf.Name = name;
+            newDwarf.Physic = physic;
+            return newDwarf;
+        }
 
         private static void PrintSortedDwarfs(Dictionary<string, List<Dwarf>> dictHatColourDwarf)
         {
