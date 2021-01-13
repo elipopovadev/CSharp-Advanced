@@ -11,3 +11,5 @@ C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\O
 C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\OddLines\obj\Debug\netcoreapp3.1\OddLines.dll
 C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\OddLines\obj\Debug\netcoreapp3.1\OddLines.pdb
 C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\OddLines\obj\Debug\netcoreapp3.1\OddLines.genruntimeconfig.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\OddLines\bin\Debug\netcoreapp3.1\OddLines.txt
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\OddLines\bin\Debug\netcoreapp3.1\OddLinesAnother.txt
