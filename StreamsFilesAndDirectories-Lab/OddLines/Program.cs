@@ -9,7 +9,7 @@ namespace OddLines
         {
             using (var reader = new StreamReader($"OddLines.txt"))
             {
-                using (var writer = new StreamWriter("otput.txt"))
+                using (var writer = new StreamWriter("output.txt"))
                 {
                     int counter = 0;
                     while (!reader.EndOfStream)
