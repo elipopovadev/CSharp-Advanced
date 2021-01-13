@@ -13,7 +13,7 @@ namespace OddLines
                 using(var writer=new StreamWriter("OddLinesAnother.txt"))
                 {
                     var line = reader.ReadLine();
-                    if (counter % 2 != 2)
+                    if (counter % 2 != 0)
                     {
                         writer.WriteLine(line);
                     }
