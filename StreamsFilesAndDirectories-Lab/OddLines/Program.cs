@@ -7,14 +7,20 @@ namespace OddLines
     {
         static void Main(string[] args)
         {
-            var text = File.ReadAllLines("OddLinesFile.rtf");
-            for (int i = 0; i < text.Length; i++)
+            using(var reader= new StreamReader($"OddLines.txt"))
             {
-                if (i % 2 != 2)
+                int counter = 0;
+                using(var writer=new StreamWriter("OddLinesAnother.txt"))
                 {
-                    File.Copy(text[i], "OddLinesAnotherFile.rtf");
-                }                                 
-            }            
+                    var line = reader.ReadLine();
+                    if (counter % 2 != 2)
+                    {
+                        writer.WriteLine(line);
+                    }
+
+                    counter++;
+                }
+            }
         }
     }
 }

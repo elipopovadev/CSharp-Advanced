@@ -1,5 +1,3 @@
-C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\OddLines\bin\Debug\netcoreapp3.1\OddLinesAnotherFile.rtf
-C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\OddLines\bin\Debug\netcoreapp3.1\OddLinesFile.rtf
 C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\OddLines\bin\Debug\netcoreapp3.1\OddLines.exe
 C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\OddLines\bin\Debug\netcoreapp3.1\OddLines.deps.json
 C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\OddLines\bin\Debug\netcoreapp3.1\OddLines.runtimeconfig.json
