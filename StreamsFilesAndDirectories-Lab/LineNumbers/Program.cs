@@ -7,7 +7,7 @@ namespace LineNumbers
     {
         static void Main(string[] args)
         {
-            var file = File.CreateText("LineNum.txt"); 
+         
         }
     }
 }
