@@ -11,12 +11,12 @@ namespace LineNumbers
             {
                 using(var writer = new StreamWriter(@"C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\LineNumbers\output.txt"))
                 {
-                    int lineNumber = 1;
+                    int lineNumbers = 1;
                     while (!reader.EndOfStream)
                     {
                         var line = reader.ReadLine();
-                        writer.WriteLine($"{lineNumber}. {line}");
-                        lineNumber++;
+                        writer.WriteLine($"{lineNumbers}. {line}");
+                        lineNumbers++;
                     }
                 }
             }
