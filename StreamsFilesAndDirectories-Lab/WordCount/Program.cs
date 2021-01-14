@@ -10,15 +10,15 @@ namespace WordCount
         static void Main(string[] args)
         {
             var dictWordCount = new Dictionary<string, int>();
-            using (var readerWords = new StreamReader(@"C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\words.txt"))
+            using (var readerWords = new StreamReader("words.txt"))
             {
-                using (var writerInOutput = new StreamWriter(@"C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\output.txt"))
+                using (var writerInOutput = new StreamWriter("output.txt"))
                 {
                     string[] wordsArray = readerWords.ReadToEnd().ToLower().Split(" ");
 
                     foreach (string wordInWords in wordsArray)
                     {
-                        using (var readerText = new StreamReader(@"C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\text.txt"))
+                        using (var readerText = new StreamReader("text.txt"))
                         {
                             while (!readerText.EndOfStream)
                             {

@@ -7,9 +7,9 @@ namespace OddLines
     {
         static void Main(string[] args)
         {
-            using (var reader = new StreamReader(@"C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\OddLines\input.txt"))
+            using (var reader = new StreamReader("input.txt"))
             {
-                using (var writer = new StreamWriter(@"C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\OddLines\output.txt"))
+                using (var writer = new StreamWriter("output.txt"))
                 {
                     int counter = 0;
                     while (!reader.EndOfStream)

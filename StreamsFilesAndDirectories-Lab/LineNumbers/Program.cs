@@ -7,9 +7,9 @@ namespace LineNumbers
     {
         static void Main(string[] args)
         {
-            using (var reader = new StreamReader(@"C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\LineNumbers\input.txt"))
+            using (var reader = new StreamReader("input.txt"))
             {
-                using(var writer = new StreamWriter(@"C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\LineNumbers\output.txt"))
+                using(var writer = new StreamWriter("output.txt"))
                 {
                     int lineNumbers = 1;
                     while (!reader.EndOfStream)
