@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\bin\Debug\netcoreapp3.1\WordCount.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\bin\Debug\netcoreapp3.1\WordCount.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\bin\Debug\netcoreapp3.1\WordCount.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\bin\Debug\netcoreapp3.1\WordCount.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\bin\Debug\netcoreapp3.1\WordCount.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\bin\Debug\netcoreapp3.1\WordCount.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\obj\Debug\netcoreapp3.1\WordCount.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\obj\Debug\netcoreapp3.1\WordCount.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\obj\Debug\netcoreapp3.1\WordCount.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\obj\Debug\netcoreapp3.1\WordCount.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\obj\Debug\netcoreapp3.1\WordCount.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\obj\Debug\netcoreapp3.1\WordCount.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\obj\Debug\netcoreapp3.1\WordCount.genruntimeconfig.cache
