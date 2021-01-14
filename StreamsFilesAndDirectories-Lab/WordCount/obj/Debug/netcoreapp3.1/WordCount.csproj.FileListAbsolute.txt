@@ -11,3 +11,6 @@ C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\W
 C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\obj\Debug\netcoreapp3.1\WordCount.dll
 C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\obj\Debug\netcoreapp3.1\WordCount.pdb
 C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\obj\Debug\netcoreapp3.1\WordCount.genruntimeconfig.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\bin\Debug\netcoreapp3.1\output.txt
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\bin\Debug\netcoreapp3.1\text.txt
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\WordCount\bin\Debug\netcoreapp3.1\words.txt
