@@ -15,7 +15,7 @@ namespace LineNumbers
                     while (!reader.EndOfStream)
                     {
                         var line = reader.ReadLine();
-                        writer.WriteLine($"{lineNumber} {line}");
+                        writer.WriteLine($"{lineNumber}. {line}");
                         lineNumber++;
                     }
                 }
