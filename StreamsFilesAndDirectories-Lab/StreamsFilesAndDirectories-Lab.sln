@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LineNumbers", "LineNumbers\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCount", "WordCount\WordCount.csproj", "{DB5FA003-D91E-4E2C-902D-E6797F687FD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeFiles", "MergeFiles\MergeFiles.csproj", "{1B4DEE02-CB88-4F3F-A5F9-D58758CF925B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliceAFile", "SliceAFile\SliceAFile.csproj", "{60435452-0740-4772-9E35-55EAC5592988}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{DB5FA003-D91E-4E2C-902D-E6797F687FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB5FA003-D91E-4E2C-902D-E6797F687FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB5FA003-D91E-4E2C-902D-E6797F687FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4DEE02-CB88-4F3F-A5F9-D58758CF925B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4DEE02-CB88-4F3F-A5F9-D58758CF925B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4DEE02-CB88-4F3F-A5F9-D58758CF925B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4DEE02-CB88-4F3F-A5F9-D58758CF925B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60435452-0740-4772-9E35-55EAC5592988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60435452-0740-4772-9E35-55EAC5592988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60435452-0740-4772-9E35-55EAC5592988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60435452-0740-4772-9E35-55EAC5592988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

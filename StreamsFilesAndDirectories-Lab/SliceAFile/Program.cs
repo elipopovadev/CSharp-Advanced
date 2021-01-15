@@ -1,0 +1,30 @@
+﻿using System;
+using System.IO;
+using System.Linq;
+
+namespace SliceAFile
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            using var stream = new FileStream("input.txt", FileMode.Open);
+            var parts = 4;
+            var length = (int)Math.Ceiling((decimal)stream.Length / parts);
+            var buffer = new byte[length];
+
+            for (int i = 0; i < parts; i++)
+            {
+                var bytesRead = stream.Read(buffer, 0, buffer.Length); // read the current bytes
+
+                if (bytesRead < buffer.Length)
+                {
+                    buffer = buffer.Take(bytesRead).ToArray();
+                }
+
+                using var currentPartStream = new FileStream($"Part-{i + 1}.txt", FileMode.Open); // create a file
+                currentPartStream.Write(buffer, 0, buffer.Length); // write in a file
+            }
+        }
+    }
+}
