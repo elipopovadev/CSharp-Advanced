@@ -22,7 +22,7 @@ namespace SliceAFile
                     buffer = buffer.Take(bytesRead).ToArray();
                 }
 
-                using var currentPartStream = new FileStream($"Part-{i + 1}.txt", FileMode.Open); // create a file
+                using var currentPartStream = new FileStream($"Part-{i + 1}.txt", FileMode.Open); // create a FileStream
                 currentPartStream.Write(buffer, 0, buffer.Length); // write in a file
             }
         }
