@@ -8,20 +8,10 @@ namespace MergeFiles
     {
         static void Main(string[] args)
         {
-
-            using (var readerInput1 = new StreamReader("input1.txt"))
-            {
-                using (var readerInput2 = new StreamReader("input2.txt"))
-                {
-                    var firstInput = readerInput1.ReadToEnd();
-                    var secondInput = readerInput2.ReadToEnd();                
-                    
-                    using(var writerInOutput=new StreamWriter(@"C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Lab\MergeFiles\output.txt"))
-                    {
-                        
-                    }
-                }
-            }
+            var list = File.ReadAllLines("input1.txt").ToList();
+            list.AddRange(File.ReadAllLines("input2.txt"));
+            list.OrderBy(x=>x);
+            File.WriteAllLines(@"..\..\..\output.txt", list);
         }
     }
 }
