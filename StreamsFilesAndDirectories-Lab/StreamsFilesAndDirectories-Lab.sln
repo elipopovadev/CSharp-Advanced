@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeFiles", "MergeFiles\Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SliceAFile", "SliceAFile\SliceAFile.csproj", "{60435452-0740-4772-9E35-55EAC5592988}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderSize", "FolderSize\FolderSize.csproj", "{6FF96A9F-A270-40DB-87FA-7EBC5729B3C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{60435452-0740-4772-9E35-55EAC5592988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60435452-0740-4772-9E35-55EAC5592988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60435452-0740-4772-9E35-55EAC5592988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FF96A9F-A270-40DB-87FA-7EBC5729B3C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FF96A9F-A270-40DB-87FA-7EBC5729B3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FF96A9F-A270-40DB-87FA-7EBC5729B3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FF96A9F-A270-40DB-87FA-7EBC5729B3C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
