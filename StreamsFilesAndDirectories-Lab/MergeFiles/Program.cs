@@ -8,8 +8,8 @@ namespace MergeFiles
     {
         static void Main(string[] args)
         {
-            var list = File.ReadAllLines("input1.txt").ToList();
-            list.AddRange(File.ReadAllLines("input2.txt"));
+            var list = File.ReadAllLines(@"..\..\..\input1.txt").ToList();
+            list.AddRange(File.ReadAllLines(@"..\..\..\input2.txt"));
             list.OrderBy(x=>x);
             File.WriteAllLines(@"..\..\..\output.txt", list);
         }

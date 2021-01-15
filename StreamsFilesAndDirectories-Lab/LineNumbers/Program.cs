@@ -11,12 +11,12 @@ namespace LineNumbers
             {
                 using(var writer = new StreamWriter("output.txt"))
                 {
-                    int lineNumbers = 1;
+                    int countlines = 1;
                     while (!reader.EndOfStream)
                     {
                         var line = reader.ReadLine();
-                        writer.WriteLine($"{lineNumbers}. {line}");
-                        lineNumbers++;
+                        writer.WriteLine($"{countlines}. {line}");
+                        countlines++;
                     }
                 }
             }
