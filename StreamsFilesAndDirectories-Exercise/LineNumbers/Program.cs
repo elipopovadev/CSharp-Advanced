@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 
 namespace LineNumbers
 {
@@ -11,16 +12,33 @@ namespace LineNumbers
             {
                 using (var writer = new StreamWriter("output.txt"))
                 {
+                    int lineCounter = 1;
+                    while (!reader.EndOfStream)
+                    {
+                        var line = reader.ReadLine();
+                        var lineWithoutSpace = line.Replace(" ", "");
+                        var listWithChars = lineWithoutSpace.ToCharArray().ToList();                      
+                        int sumLetter = 0;
+                        int sumPunctuationMarks = 0;
+                        foreach (var symbol in listWithChars)
+                        {
+                            if (char.IsLetter(symbol))
+                            {
+                                sumLetter++;
+                            }
 
+                            else
+                            {
+                                sumPunctuationMarks++;
+                            }
+                        }
 
-
-
+                        writer.WriteLine($"Line {lineCounter}:{line}({sumLetter})({sumPunctuationMarks})");
+                        listWithChars.Clear();
+                        lineCounter++;
+                    }                 
                 }
-            }
-            
-
-
-
+            }            
         }
     }
 }
