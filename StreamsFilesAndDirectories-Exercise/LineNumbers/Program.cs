@@ -27,7 +27,7 @@ namespace LineNumbers
                                 sumLetter++;
                             }
 
-                            else
+                            else if(!char.IsLetter(symbol) && !char.IsDigit(symbol))
                             {
                                 sumPunctuationMarks++;
                             }
