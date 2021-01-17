@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\bin\Debug\netcoreapp3.1\CopyBinaryFile.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\bin\Debug\netcoreapp3.1\CopyBinaryFile.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\bin\Debug\netcoreapp3.1\CopyBinaryFile.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\bin\Debug\netcoreapp3.1\CopyBinaryFile.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\bin\Debug\netcoreapp3.1\CopyBinaryFile.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\bin\Debug\netcoreapp3.1\CopyBinaryFile.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\obj\Debug\netcoreapp3.1\CopyBinaryFile.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\obj\Debug\netcoreapp3.1\CopyBinaryFile.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\obj\Debug\netcoreapp3.1\CopyBinaryFile.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\obj\Debug\netcoreapp3.1\CopyBinaryFile.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\obj\Debug\netcoreapp3.1\CopyBinaryFile.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\obj\Debug\netcoreapp3.1\CopyBinaryFile.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile\obj\Debug\netcoreapp3.1\CopyBinaryFile.genruntimeconfig.cache
