@@ -10,13 +10,13 @@ namespace WordCount
         static void Main(string[] args)
         {
             var dictWordAppear = new Dictionary<string, int>();
-            using (var readerWords = new StreamReader("words.txt"))
+            using (var readerWords = new StreamReader(@"..\..\..\words.txt"))
             {
-                using (var readerText = new StreamReader("text.txt"))
+                using (var readerText = new StreamReader(@"..\..\..\text.txt"))
                 {
-                    using (var writerInActualResult = new StreamWriter("actualReasult.txt"))
+                    using (var writerInActualResult = new StreamWriter(@"..\..\..\actualReasult.txt"))
                     {
-                        using (var writerInExpectedResult = new StreamWriter("expectedResult.txt"))
+                        using (var writerInExpectedResult = new StreamWriter(@"..\..\..\expectedResult.txt"))
                         {
                             string[] wordsArray = readerWords.ReadToEnd().ToLower().Split();
                             while (!readerText.EndOfStream)
