@@ -9,46 +9,44 @@ namespace WordCount
     {
         static void Main(string[] args)
         {
-            var dictWordCount = new Dictionary<string, int>();
+            var dictWordAppear = new Dictionary<string, int>();
             using (var readerWords = new StreamReader("words.txt"))
             {
-                using (var writerInOutput = new StreamWriter("output.txt"))
+                using (var readerText = new StreamReader("text.txt"))
                 {
-                    string[] wordsArray = readerWords.ReadToEnd().ToLower().Split(" ");
 
-                    foreach (string wordInWords in wordsArray)
+                    using (var writerInExpectedResult = new StreamWriter("output.txt"))
                     {
-                        using (var readerText = new StreamReader("text.txt"))
+                        string[] wordsArray = readerWords.ReadToEnd().ToLower().Split();
+                        while (!readerText.EndOfStream)
                         {
-                            while (!readerText.EndOfStream)
+                            var lineArray = readerText.ReadLine().ToLower().Split(new char[] { ',', '.', '!', '?', '-', ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                            foreach (var wordInWordsArray in wordsArray)
                             {
-                                string[] textLine = readerText.ReadLine().ToLower().Split(new char[] {',',' ', '-', '.', '?', '!'});
-                                foreach (string wordInText in textLine)
+                                foreach (var wordInLineArray in lineArray)
                                 {
-                                    if (string.Equals(wordInWords, wordInText))
+                                    if (string.Equals(wordInWordsArray, wordInLineArray))
                                     {
-                                        if (!dictWordCount.ContainsKey(wordInWords))
+                                        if (!dictWordAppear.ContainsKey(wordInWordsArray))
                                         {
-                                            dictWordCount[wordInWords] = 1;
+                                            dictWordAppear[wordInWordsArray] = 0;
                                         }
 
-                                        else
-                                        {
-                                            dictWordCount[wordInWords]++;
-                                        }
+                                        dictWordAppear[wordInWordsArray]++;
                                     }
                                 }
                             }
-                        }                         
-                    }
+                        }
 
-                    var sortedDict = dictWordCount.OrderByDescending(x => x.Value);
-                    foreach (var (word, counter) in sortedDict)
-                    {
-                        writerInOutput.WriteLine($"{word}-{counter}");
+                        var sortedDict = dictWordAppear.OrderByDescending(x => x.Value);
+                        foreach (var (word, appear) in sortedDict)
+                        {
+                            writerInExpectedResult.WriteLine($"{word}-{appear}");
+                        }
                     }
                 }
             }
         }
     }
 }
+
