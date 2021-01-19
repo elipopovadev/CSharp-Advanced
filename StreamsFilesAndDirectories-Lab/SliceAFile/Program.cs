@@ -8,14 +8,14 @@ namespace SliceAFile
     {
         static void Main(string[] args)
         {
-            using var stream = new FileStream("input.txt", FileMode.Open);
+            using var readerInput= new FileStream("input.txt", FileMode.Open);
             var parts = 4;
-            var length = (int)Math.Ceiling((decimal)stream.Length / parts);
+            var length = (int)Math.Ceiling((decimal)readerInput.Length / parts);
             var buffer = new byte[length];
 
             for (int i = 0; i < parts; i++)
             {
-                var bytesRead = stream.Read(buffer, 0, buffer.Length); // read the current bytes
+                var bytesRead = readerInput.Read(buffer, 0, buffer.Length); // read the current bytes
 
                 if (bytesRead < buffer.Length)
                 {
