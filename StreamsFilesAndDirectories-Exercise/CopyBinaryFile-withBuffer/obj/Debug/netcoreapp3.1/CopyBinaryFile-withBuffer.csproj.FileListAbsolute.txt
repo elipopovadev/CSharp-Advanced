@@ -11,3 +11,4 @@ C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exerc
 C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile-withBuffer\obj\Debug\netcoreapp3.1\CopyBinaryFile-withBuffer.dll
 C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile-withBuffer\obj\Debug\netcoreapp3.1\CopyBinaryFile-withBuffer.pdb
 C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile-withBuffer\obj\Debug\netcoreapp3.1\CopyBinaryFile-withBuffer.genruntimeconfig.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\StreamsFilesAndDirectories-Exercise\CopyBinaryFile-withBuffer\obj\Debug\netcoreapp3.1\CopyBinaryFile-withBuffer.csprojAssemblyReference.cache
