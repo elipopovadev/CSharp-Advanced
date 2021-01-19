@@ -17,10 +17,10 @@ namespace LineNumbers
                     {
                         var line = reader.ReadLine();
                         var lineWithoutSpace = line.Replace(" ", "");
-                        var listWithChars = lineWithoutSpace.ToCharArray().ToList();                      
+                        var charArray = lineWithoutSpace.ToCharArray();                      
                         int sumLetter = 0;
                         int sumPunctuationMarks = 0;
-                        foreach (var symbol in listWithChars)
+                        foreach (var symbol in charArray)
                         {
                             if (char.IsLetter(symbol))
                             {
@@ -33,8 +33,7 @@ namespace LineNumbers
                             }
                         }
 
-                        writer.WriteLine($"Line {lineCounter}:{line}({sumLetter})({sumPunctuationMarks})");
-                        listWithChars.Clear();
+                        writer.WriteLine($"Line {lineCounter}:{line}({sumLetter})({sumPunctuationMarks})");                       
                         lineCounter++;
                     }                 
                 }
