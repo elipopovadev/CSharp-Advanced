@@ -7,9 +7,9 @@ namespace SumNumbers
     {
         static void Main(string[] args)
         {
-            
-
-
+            int[] result = Console.ReadLine().Split(", ", StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
+            Console.WriteLine(result.Count());
+            Console.WriteLine(result.Sum());
         }
     }
 }
