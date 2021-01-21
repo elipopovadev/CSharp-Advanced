@@ -12,10 +12,7 @@ namespace SortEvenNumbers
             foreach (var number in intArray)
             {
                 Console.Write(number + ", ");
-            }
-
-            
-
+            }           
         }
     }
 }
