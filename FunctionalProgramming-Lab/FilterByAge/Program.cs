@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 
 namespace FilterByAge
@@ -22,56 +21,62 @@ namespace FilterByAge
 
             string firstCondition = Console.ReadLine();
             int secondCondition = int.Parse(Console.ReadLine());
-            string[] pairs = Console.ReadLine().Split();
-            Func<int, bool> func = null;
+            string formatToPrint = Console.ReadLine();
+
+            Func<Student, bool> predicate = null;
             if (firstCondition == "older")
             {
-                func = x => x >= secondCondition;
+                predicate = s => s.Age >= secondCondition;
             }
 
             else if (firstCondition == "younger")
             {
-                func = x => x < secondCondition;
+                predicate = s => s.Age < secondCondition;
             }
 
-            var filtertedList = listOfStudents.Where(x => func(x.Age));
-            if (pairs.Contains("name") && pairs.Contains("age"))
+            var filtertedList = listOfStudents.Where(predicate);
+
+            foreach (var student in filtertedList)
             {
-                foreach (var student in filtertedList)
+                switch (formatToPrint)
                 {
-                    Console.WriteLine($"{student.Name} - { student.Age}");
+                    case "name age":
+                        {
+                            Console.WriteLine($"{student.Name} - { student.Age}");
+                            break;
+                        }
+
+                    case "name":
+                        {
+                            Console.WriteLine(student.Name);
+                            break;
+                        }
+
+                    case "age":
+                        {
+                            Console.WriteLine(student.Age);
+                            break;
+                        }
+
+                    default:
+                        break;                     
                 }
             }
-
-            else if (pairs.Contains("name"))
-            {
-                foreach (var student in filtertedList)
-                {
-                    Console.WriteLine(student.Name);
-                }
-            }
-
-            else if (pairs.Contains("age"))
-            {
-                foreach (var student in filtertedList)
-                {
-                    Console.WriteLine(student.Age);
-                }
-            }
-        }
-    }
-
-
-    class Student
-    {
-
-        public string Name { get; set; }
-        public int Age { get; set; }
-
-        public Student(string Name, int Age)
-        {
-            this.Name = Name;
-            this.Age = Age;
         }
     }
 }
+
+
+class Student
+{
+
+    public string Name { get; set; }
+    public int Age { get; set; }
+
+    public Student(string Name, int Age)
+    {
+        this.Name = Name;
+        this.Age = Age;
+    }
+}
+
