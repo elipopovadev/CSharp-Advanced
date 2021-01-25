@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\bin\Debug\netcoreapp3.1\CustomMinFunction.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\bin\Debug\netcoreapp3.1\CustomMinFunction.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\bin\Debug\netcoreapp3.1\CustomMinFunction.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\bin\Debug\netcoreapp3.1\CustomMinFunction.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\bin\Debug\netcoreapp3.1\CustomMinFunction.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\bin\Debug\netcoreapp3.1\CustomMinFunction.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\obj\Debug\netcoreapp3.1\CustomMinFunction.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\obj\Debug\netcoreapp3.1\CustomMinFunction.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\obj\Debug\netcoreapp3.1\CustomMinFunction.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\obj\Debug\netcoreapp3.1\CustomMinFunction.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\obj\Debug\netcoreapp3.1\CustomMinFunction.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\obj\Debug\netcoreapp3.1\CustomMinFunction.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\CustomMinFunction\obj\Debug\netcoreapp3.1\CustomMinFunction.genruntimeconfig.cache
