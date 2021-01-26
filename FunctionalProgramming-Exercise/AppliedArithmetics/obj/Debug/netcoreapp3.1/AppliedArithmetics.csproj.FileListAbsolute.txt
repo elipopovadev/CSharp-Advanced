@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\bin\Debug\netcoreapp3.1\AppliedArithmetics.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\bin\Debug\netcoreapp3.1\AppliedArithmetics.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\bin\Debug\netcoreapp3.1\AppliedArithmetics.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\bin\Debug\netcoreapp3.1\AppliedArithmetics.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\bin\Debug\netcoreapp3.1\AppliedArithmetics.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\bin\Debug\netcoreapp3.1\AppliedArithmetics.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\obj\Debug\netcoreapp3.1\AppliedArithmetics.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\obj\Debug\netcoreapp3.1\AppliedArithmetics.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\obj\Debug\netcoreapp3.1\AppliedArithmetics.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\obj\Debug\netcoreapp3.1\AppliedArithmetics.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\obj\Debug\netcoreapp3.1\AppliedArithmetics.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\obj\Debug\netcoreapp3.1\AppliedArithmetics.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\FunctionalProgramming-Exercise\AppliedArithmetics\obj\Debug\netcoreapp3.1\AppliedArithmetics.genruntimeconfig.cache
