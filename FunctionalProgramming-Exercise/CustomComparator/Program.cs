@@ -32,7 +32,6 @@ namespace CustomComparator
                 }
 
                 return compare;
-
             });
 
             Console.WriteLine(string.Join(" ", numbers));
