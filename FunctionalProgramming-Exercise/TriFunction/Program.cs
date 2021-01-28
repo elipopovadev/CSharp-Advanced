@@ -10,14 +10,13 @@ namespace TriFunction
         {
             int n = int.Parse(Console.ReadLine());
             string[] names = Console.ReadLine().Split();
-            Func<string, int, bool> privateWhere = (name, n) => name.ToCharArray().Select(x => (int)x).Sum() >= n;
-
+            Func<string, int, bool> privateFilter = (name, n) => name.ToCharArray().Select(x => (int)x).Sum() >= n;
             Func<string[], string> getFirstValidName = names =>
             {
                 var name = string.Empty;
                 foreach (var currentName in names)
                 {
-                    if (privateWhere(currentName, n))
+                    if (privateFilter(currentName, n))
                     {
                         name = currentName;
                         break;
