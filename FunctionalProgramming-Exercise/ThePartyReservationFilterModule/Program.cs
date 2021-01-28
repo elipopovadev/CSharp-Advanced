@@ -8,7 +8,7 @@ namespace ThePartyReservationFilterModule
     {
         static void Main(string[] args)
         {
-            var initialListOffGuests = Console.ReadLine().Split().ToList();
+            var initialList = Console.ReadLine().Split().ToList();
 
             Func<List<string>, string, string, List<string>> funcRemoveFilter = (initialList, filterType, filterParameter) =>
             {
@@ -36,7 +36,6 @@ namespace ThePartyReservationFilterModule
                     {
                         if (person.Length == length) listOnlyWithRemovedFilter.Add(person);
                     }
-
                 }
 
                 else if (filterType == "Contains")
@@ -76,7 +75,6 @@ namespace ThePartyReservationFilterModule
                     {
                         if (person.Length != length) listWithFilter.Add(person);
                     }
-
                 }
 
                 else if (filterType == "Contains")
@@ -92,7 +90,7 @@ namespace ThePartyReservationFilterModule
 
             string input;
             var guests = new List<string>();
-            guests.AddRange(initialListOffGuests);
+            guests.AddRange(initialList);
             while ((input = Console.ReadLine()) != "Print")
             {
                 string[] inputArray = input.Split(';').ToArray();
@@ -101,16 +99,16 @@ namespace ThePartyReservationFilterModule
                 string filterParameter = inputArray[2];
                 if (command.StartsWith("Add"))
                 {
-                  guests = funcAddFilter(guests, filterType, filterParameter);                  
+                    guests = funcAddFilter(guests, filterType, filterParameter);
                 }
 
                 else if (command.StartsWith("Remove"))
                 {
-                    var listOnlyWithRemoveFilter = funcRemoveFilter(initialListOffGuests, filterType, filterParameter);
-                    guests.AddRange(listOnlyWithRemoveFilter);                   
+                    var listOnlyWithRemoveFilter = funcRemoveFilter(initialList, filterType, filterParameter);
+                    guests.AddRange(listOnlyWithRemoveFilter);
                 }
             }
-         
+
             Console.WriteLine(string.Join(" ", guests));
         }
     }
