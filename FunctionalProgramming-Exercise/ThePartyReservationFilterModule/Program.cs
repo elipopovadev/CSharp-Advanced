@@ -8,14 +8,56 @@ namespace ThePartyReservationFilterModule
     {
         static void Main(string[] args)
         {
+            var initialListOffGuests = Console.ReadLine().Split().ToList();
+
+            Func<List<string>, string, string, List<string>> funcRemoveFilter = (initialList, filterType, filterParameter) =>
+            {
+                var listOnlyWithRemovedFilter = new List<string>();
+                if (filterType == "Starts with")
+                {
+                    foreach (var person in initialList)
+                    {
+                        if (person.StartsWith(filterParameter)) listOnlyWithRemovedFilter.Add(person);
+                    }
+                }
+
+                else if (filterType == "Ends with")
+                {
+                    foreach (var person in initialList)
+                    {
+                        if (person.EndsWith(filterParameter)) listOnlyWithRemovedFilter.Add(person);
+                    }
+                }
+
+                else if (filterType == "Length")
+                {
+                    int length = int.Parse(filterParameter);
+                    foreach (var person in initialList)
+                    {
+                        if (person.Length == length) listOnlyWithRemovedFilter.Add(person);
+                    }
+
+                }
+
+                else if (filterType == "Contains")
+                {
+                    foreach (var person in initialList)
+                    {
+                        if (person.Contains(filterParameter)) listOnlyWithRemovedFilter.Add(person);
+                    }
+                }
+
+                return listOnlyWithRemovedFilter;
+            };
+
             Func<List<string>, string, string, List<string>> funcAddFilter = (guests, filterType, filterParameter) =>
             {
-                var newList = new List<string>();
+                var listWithFilter = new List<string>();
                 if (filterType == "Starts with")
                 {
                     foreach (var person in guests)
                     {
-                        if (!person.StartsWith(filterParameter)) newList.Add(person);
+                        if (!person.StartsWith(filterParameter)) listWithFilter.Add(person);
                     }
                 }
 
@@ -23,7 +65,7 @@ namespace ThePartyReservationFilterModule
                 {
                     foreach (var person in guests)
                     {
-                        if (!person.EndsWith(filterParameter)) newList.Add(person);
+                        if (!person.EndsWith(filterParameter)) listWithFilter.Add(person);
                     }
                 }
 
@@ -32,7 +74,7 @@ namespace ThePartyReservationFilterModule
                     int length = int.Parse(filterParameter);
                     foreach (var person in guests)
                     {
-                        if (person.Length != length) newList.Add(person);
+                        if (person.Length != length) listWithFilter.Add(person);
                     }
 
                 }
@@ -41,19 +83,16 @@ namespace ThePartyReservationFilterModule
                 {
                     foreach (var person in guests)
                     {
-                        if (!person.Contains(filterParameter)) newList.Add(person);
+                        if (!person.Contains(filterParameter)) listWithFilter.Add(person);
                     }
                 }
 
-                return newList;
+                return listWithFilter;
             };
 
-            var guests = Console.ReadLine().Split().ToList();
-            var listWithFilter = new List<Filter>();
-            var listWithConditions = new List<List<string>>();
-            listWithConditions.Add(guests);
-
             string input;
+            var guests = new List<string>();
+            guests.AddRange(initialListOffGuests);
             while ((input = Console.ReadLine()) != "Print")
             {
                 string[] inputArray = input.Split(';').ToArray();
@@ -62,33 +101,17 @@ namespace ThePartyReservationFilterModule
                 string filterParameter = inputArray[2];
                 if (command.StartsWith("Add"))
                 {
-                    guests = funcAddFilter(guests, filterType, filterParameter);
-                    var newFilter = new Filter(filterType, filterParameter);
-                    listWithFilter.Add(newFilter);
-                    listWithConditions.Add(guests);
+                  guests = funcAddFilter(guests, filterType, filterParameter);                  
                 }
 
                 else if (command.StartsWith("Remove"))
                 {
-                    listWithConditions.RemoveAt(listWithConditions.Count - 1);
-                    listWithFilter.RemoveAt(listWithConditions.Count-1);
-                    
+                    var listOnlyWithRemoveFilter = funcRemoveFilter(initialListOffGuests, filterType, filterParameter);
+                    guests.AddRange(listOnlyWithRemoveFilter);                   
                 }
             }
-
-            var lastCondition = listWithConditions.Last();
-            Console.WriteLine(string.Join(" ", lastCondition));
+         
+            Console.WriteLine(string.Join(" ", guests));
         }
-    }
-
-    class Filter
-    {
-        public Filter(string filterType, string filterParameter)
-        {
-            this.FilterType = filterType;
-            this.FilterParameter = filterParameter;
-        }
-        public string FilterType { get; set; }
-        public string FilterParameter { get; set; }
     }
 }
