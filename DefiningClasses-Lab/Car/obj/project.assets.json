@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eli\\Desktop\\AllMyRepos\\CSharp-Advanced\\DefiningClasses-Lab\\Car\\CarManufacturer.csproj",
-      "projectName": "CarManufacturer",
-      "projectPath": "C:\\Users\\eli\\Desktop\\AllMyRepos\\CSharp-Advanced\\DefiningClasses-Lab\\Car\\CarManufacturer.csproj",
+      "projectUniqueName": "C:\\Users\\eli\\Desktop\\AllMyRepos\\CSharp-Advanced\\DefiningClasses-Lab\\Car\\Car.csproj",
+      "projectName": "Car",
+      "projectPath": "C:\\Users\\eli\\Desktop\\AllMyRepos\\CSharp-Advanced\\DefiningClasses-Lab\\Car\\Car.csproj",
       "packagesPath": "C:\\Users\\eli\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\eli\\Desktop\\AllMyRepos\\CSharp-Advanced\\DefiningClasses-Lab\\Car\\obj\\",
       "projectStyle": "PackageReference",
