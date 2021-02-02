@@ -4,7 +4,6 @@ namespace CarConstructors
 {
     public class Car
     {
-
         public Car()
         {
             this.Make = "VW";
