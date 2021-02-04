@@ -2,7 +2,7 @@
 
 namespace CarEngineAndTires
 {
-    class Engine
+    public class Engine
     {
         private int horsePower;
         private double cubicCapacity;
