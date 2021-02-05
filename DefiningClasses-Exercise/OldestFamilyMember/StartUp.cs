@@ -17,7 +17,7 @@ namespace OldestFamilyMember
                 family.AddMember(newPerson);                                          
             }
 
-            var oldestMember=family.GetOldestMember();
+            var oldestMember = family.GetOldestMember();
             Console.Write($"{oldestMember.Name} {oldestMember.Age}");
         }
     }
