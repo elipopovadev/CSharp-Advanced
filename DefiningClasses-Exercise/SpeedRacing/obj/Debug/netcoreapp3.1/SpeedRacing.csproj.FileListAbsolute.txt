@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\bin\Debug\netcoreapp3.1\SpeedRacing.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\bin\Debug\netcoreapp3.1\SpeedRacing.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\bin\Debug\netcoreapp3.1\SpeedRacing.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\bin\Debug\netcoreapp3.1\SpeedRacing.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\bin\Debug\netcoreapp3.1\SpeedRacing.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\bin\Debug\netcoreapp3.1\SpeedRacing.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\obj\Debug\netcoreapp3.1\SpeedRacing.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\obj\Debug\netcoreapp3.1\SpeedRacing.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\obj\Debug\netcoreapp3.1\SpeedRacing.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\obj\Debug\netcoreapp3.1\SpeedRacing.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\obj\Debug\netcoreapp3.1\SpeedRacing.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\obj\Debug\netcoreapp3.1\SpeedRacing.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\SpeedRacing\obj\Debug\netcoreapp3.1\SpeedRacing.genruntimeconfig.cache
