@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefineAClassPerson", "DefineAClassPerson\DefineAClassPerson.csproj", "{99212816-6405-43A8-B843-D7176CD92D52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefineAClassPerson", "DefineAClassPerson\DefineAClassPerson.csproj", "{99212816-6405-43A8-B843-D7176CD92D52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreatingConstructors", "CreatingConstructors\CreatingConstructors.csproj", "{79F62B34-CA14-4753-B72A-743B2AB46CF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatingConstructors", "CreatingConstructors\CreatingConstructors.csproj", "{79F62B34-CA14-4753-B72A-743B2AB46CF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldestFamilyMember", "OldestFamilyMember\OldestFamilyMember.csproj", "{00C7CDB2-AE27-4244-9AFA-C91855E7A94F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OldestFamilyMember", "OldestFamilyMember\OldestFamilyMember.csproj", "{00C7CDB2-AE27-4244-9AFA-C91855E7A94F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpinionPoll", "OpinionPoll\OpinionPoll.csproj", "{28C7CAC0-BB17-4B7B-B9AF-DD9F924ADF6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpinionPoll", "OpinionPoll\OpinionPoll.csproj", "{28C7CAC0-BB17-4B7B-B9AF-DD9F924ADF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateModifier", "DateModifier\DateModifier.csproj", "{305F5F2C-2AA6-48B2-9668-517CB52AFE9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{28C7CAC0-BB17-4B7B-B9AF-DD9F924ADF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28C7CAC0-BB17-4B7B-B9AF-DD9F924ADF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28C7CAC0-BB17-4B7B-B9AF-DD9F924ADF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305F5F2C-2AA6-48B2-9668-517CB52AFE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305F5F2C-2AA6-48B2-9668-517CB52AFE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305F5F2C-2AA6-48B2-9668-517CB52AFE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305F5F2C-2AA6-48B2-9668-517CB52AFE9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
