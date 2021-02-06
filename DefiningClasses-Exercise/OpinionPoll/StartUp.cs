@@ -7,7 +7,7 @@ namespace OpinionPoll
     {
         static void Main(string[] args)
         {
-            var listWithPeople = new People();
+            var register = new Register();
             int number = int.Parse(Console.ReadLine());
             for (int i = 0; i < number; i++)
             {
@@ -15,10 +15,10 @@ namespace OpinionPoll
                 string name = personArray[0];
                 int age = int.Parse(personArray[1]);
                 var newPerson = new Person(name, age);
-                listWithPeople.AddPerson(newPerson);
+                register.AddPerson(newPerson);
             }
 
-            var listOrderByAge = listWithPeople.GetOldersThanThirty();
+            var listOrderByAge = register.GetOldersThanThirty();
             var sortFilterList = listOrderByAge.OrderBy(x => x.Name);
             foreach (var person in sortFilterList)
             {
