@@ -21,7 +21,7 @@ namespace SpeedRacing
             }
         }
 
-        public Car FindCarInCarRegister(string model)
+        public Car FindCarInCarsRegister(string model)
         {
             var car = this.CarsRegister.Where(c => c.Model == model).FirstOrDefault();
             return car;

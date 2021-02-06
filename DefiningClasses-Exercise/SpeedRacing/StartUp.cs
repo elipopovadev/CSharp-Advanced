@@ -25,7 +25,7 @@ namespace SpeedRacing
                 inputArray[0] = "Drive";
                 string model = inputArray[1];
                 double amountOfKm = double.Parse(inputArray[2]);
-                var currentCar = carRegister.FindCarInCarRegister(model);
+                var currentCar = carRegister.FindCarInCarsRegister(model);
                 currentCar.Drive(amountOfKm);
             }
 
