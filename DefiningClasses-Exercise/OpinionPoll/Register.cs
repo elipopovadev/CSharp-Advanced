@@ -10,11 +10,11 @@ namespace OpinionPoll
             this.ListWithPersons = new List<Person>();
         }
 
-        public void AddPerson(Person name)
+        public void AddPerson(Person person)
         {
-            if (!ListWithPersons.Contains(name))
+            if (!ListWithPersons.Any(p=> p.Name == person.Name))
             {
-                this.ListWithPersons.Add(name);
+                this.ListWithPersons.Add(person);
             }
         }
 
