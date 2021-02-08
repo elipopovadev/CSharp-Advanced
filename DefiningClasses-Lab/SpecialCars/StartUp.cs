@@ -19,16 +19,16 @@ namespace SpecialCars
             {
                 string[] tireInfo = commandForTires.Split(" ", StringSplitOptions.RemoveEmptyEntries);
                 var tempListOfTires = new List<Tire>();
-                for (int i = 0; i < 8; i+=2)
+                for (int i = 0; i < 8; i += 2)
                 {
                     int year = int.Parse(tireInfo[i]);
-                    double pressure = double.Parse(tireInfo[i+1]);
+                    double pressure = double.Parse(tireInfo[i + 1]);
                     var currentTire = new Tire(year, pressure);
                     tempListOfTires.Add(currentTire);
                 }
 
                 var currentArrayOfTires = tempListOfTires.ToArray();
-                listOfTires.Add(currentArrayOfTires);              
+                listOfTires.Add(currentArrayOfTires);
             }
 
             string commandForEngine;
@@ -55,28 +55,20 @@ namespace SpecialCars
                 if (engineIndex >= 0 && engineIndex < listOftEngines.Count && tiresIndex >= 0 && tiresIndex < listOfTires.Count)
                 {
                     Engine engine = listOftEngines[engineIndex];
-                    Tire[] tires = listOfTires[tiresIndex];                
-                   
+                    Tire[] tires = listOfTires[tiresIndex];
+
                     var newCar = new Car(make, model, year, fuelQuantity, fuelConsumption, engine, tires);
                     listOfCars.Add(newCar);
                 }
             }
-; 
-            var filterCars = listOfCars.Where(car => car.Year >= 2017 && car.Engine.HorsePower > 330).ToList();
+
+            var filterCars = listOfCars.Where(car => car.Year >= 2017 && car.Engine.HorsePower > 330 
+            && car.Tires.Sum(y => y.Pressure) >= 9 && car.Tires.Sum(y => y.Pressure) <= 10).ToList();
             foreach (var car in filterCars)
             {
-                double sumOfPressure = 0;
-                foreach (var tire in car.Tires)
-                {
-                    sumOfPressure += tire.Pressure;
-                }
-
-                if (sumOfPressure >= 9 && sumOfPressure <= 10)
-                {
-                    car.Drive(20);
-                    Console.WriteLine(car.WhoAmI());
-                }
+                car.Drive(20);
+                Console.WriteLine(car.WhoAmI());
             }
-        }       
+        }
     }
 }
