@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateModifier", "DateModifie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpeedRacing", "SpeedRacing\SpeedRacing.csproj", "{FED758C4-C6A8-48AC-AE7B-8F49F1F98751}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawData", "RawData\RawData.csproj", "{2E4C9EA7-41A6-4465-9983-99B0E5F5684D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RawData", "RawData\RawData.csproj", "{2E4C9EA7-41A6-4465-9983-99B0E5F5684D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarSalesman", "CarSalesman\CarSalesman.csproj", "{242B1F34-EA90-4D1C-968D-06970AD0D435}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarSalesman", "CarSalesman\CarSalesman.csproj", "{242B1F34-EA90-4D1C-968D-06970AD0D435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftUniParking", "SoftUniParking\SoftUniParking.csproj", "{73ECC23B-9C53-45D8-AD91-0905B0F7775C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{242B1F34-EA90-4D1C-968D-06970AD0D435}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{242B1F34-EA90-4D1C-968D-06970AD0D435}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{242B1F34-EA90-4D1C-968D-06970AD0D435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73ECC23B-9C53-45D8-AD91-0905B0F7775C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73ECC23B-9C53-45D8-AD91-0905B0F7775C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73ECC23B-9C53-45D8-AD91-0905B0F7775C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73ECC23B-9C53-45D8-AD91-0905B0F7775C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
