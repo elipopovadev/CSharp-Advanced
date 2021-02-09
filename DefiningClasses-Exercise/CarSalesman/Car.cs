@@ -1,4 +1,6 @@
-﻿namespace CarSalesman
+﻿using System.Text;
+
+namespace CarSalesman
 {
     public class Car
     {
@@ -24,8 +26,15 @@
 
         public override string ToString()
         {
-            return $"{this.Model}\n  {this.Engine.Model}\n   Power: {this.Engine.Power}\n   Displacement: {this.Engine.Displacement}\n" +
-                $"   Efficiency: {this.Engine.Efficiency}\n  Weight: {this.Weight}\n  Color: {this.Color}";
+            var sb = new StringBuilder();
+            sb.AppendLine($"{this.Model}:");
+            sb.AppendLine($"  {this.Engine.Model}:");
+            sb.AppendLine($"   Power: {  this.Engine.Power}");
+            sb.AppendLine($"   Displacement: {this.Engine.Displacement}");
+            sb.AppendLine($"   Efficiency: {this.Engine.Efficiency}");
+            sb.AppendLine($"  Weight: {this.Weight}");
+            sb.AppendLine($"  Color: { this.Color}");
+            return sb.ToString().Trim();
         }
     }
 }
