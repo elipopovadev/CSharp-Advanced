@@ -1,5 +1,5 @@
 ﻿
-namespace CreatingConstructors
+namespace DefiningClasses
 {
     public class Person
     {

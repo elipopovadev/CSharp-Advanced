@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\eli\\Desktop\\AllMyRepos\\CSharp-Advanced\\DefiningClasses-Exercise\\CreatingConstructors\\CreatingConstructors.csproj",
-      "projectName": "CreatingConstructors",
-      "projectPath": "C:\\Users\\eli\\Desktop\\AllMyRepos\\CSharp-Advanced\\DefiningClasses-Exercise\\CreatingConstructors\\CreatingConstructors.csproj",
+      "projectUniqueName": "C:\\Users\\eli\\Desktop\\AllMyRepos\\CSharp-Advanced\\DefiningClasses-Exercise\\CreatingConstructors\\DefiningClasses.csproj",
+      "projectName": "DefiningClasses",
+      "projectPath": "C:\\Users\\eli\\Desktop\\AllMyRepos\\CSharp-Advanced\\DefiningClasses-Exercise\\CreatingConstructors\\DefiningClasses.csproj",
       "packagesPath": "C:\\Users\\eli\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\eli\\Desktop\\AllMyRepos\\CSharp-Advanced\\DefiningClasses-Exercise\\CreatingConstructors\\obj\\",
       "projectStyle": "PackageReference",

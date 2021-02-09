@@ -1,7 +1,7 @@
 ﻿
-namespace CreatingConstructors
+namespace DefiningClasses
 {
-    static class StartUp
+    public class StartUp
     {
         static void Main(string[] args)
         {
