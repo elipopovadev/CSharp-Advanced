@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefineAClassPerson", "DefineAClassPerson\DefineAClassPerson.csproj", "{99212816-6405-43A8-B843-D7176CD92D52}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreatingConstructors", "CreatingConstructors\CreatingConstructors.csproj", "{79F62B34-CA14-4753-B72A-743B2AB46CF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creating Constructors", "CreatingConstructors\Creating Constructors.csproj", "{79F62B34-CA14-4753-B72A-743B2AB46CF5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OldestFamilyMember", "OldestFamilyMember\OldestFamilyMember.csproj", "{00C7CDB2-AE27-4244-9AFA-C91855E7A94F}"
 EndProject

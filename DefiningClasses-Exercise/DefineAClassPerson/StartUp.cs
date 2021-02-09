@@ -1,5 +1,5 @@
 ﻿
-namespace DefineAClassPerson
+namespace DefiningClasses
 {
     public static class StartUp
     {
