@@ -1,5 +1,5 @@
 ﻿
-namespace CarEngineAndTires
+namespace CarConstructors
 {
     public class Tire
     {

@@ -1,4 +1,4 @@
-﻿using CarEngineAndTires;
+﻿using CarConstructors;
 using System;
 
 namespace CarConstructors
@@ -59,7 +59,7 @@ namespace CarConstructors
 
         public string WhoAmI()
         {
-            return $"Make: {this.Make}\nModel: {this.Model}\nYear: {this.Year}\nHorsePower: {this.Engine.HorsePower}\nFuelQuantity: {this.FuelQuantity}";
+            return $"Make: {this.Make}\nModel: {this.Model}\nYear: {this.Year}\nHorsePowers: {this.Engine.HorsePower}\nFuelQuantity: {this.FuelQuantity}";
         }
     }
 }
