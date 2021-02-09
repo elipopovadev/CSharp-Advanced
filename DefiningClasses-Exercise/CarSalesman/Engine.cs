@@ -1,9 +1,8 @@
-﻿
-namespace CarSalesman
+﻿namespace CarSalesman
 {
     public class Engine
     {
-        public Engine(string model, string power)           
+        public Engine(string model, string power)
         {
             this.Model = model;
             this.Power = power;
@@ -12,16 +11,15 @@ namespace CarSalesman
         }
 
         public Engine(string model, string power, string displacement, string efficiency)
-            :this(model,power)
-        {          
+            : this(model, power)
+        {
             this.Displacement = displacement;
             this.Efficiency = efficiency;
         }
 
-        public string Model{ get; set; }
+        public string Model { get; set; }
         public string Power { get; set; }
         public string Displacement { get; set; }
         public string Efficiency { get; set; }
     }
 }
-

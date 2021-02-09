@@ -1,5 +1,4 @@
-﻿
-namespace CarSalesman
+﻿namespace CarSalesman
 {
     public class Car
     {

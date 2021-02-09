@@ -61,12 +61,12 @@ namespace CarSalesman
                 {
                     string model = inputArray[0];
                     string engineModel = inputArray[1];
-                    if(listOfEngines.Exists(e => e.Model == engineModel))
+                    if (listOfEngines.Exists(e => e.Model == engineModel))
                     {
                         Engine findEngine = listOfEngines.Where(e => e.Model == engineModel).First();
-                        Car newCar = new Car(model, findEngine);                   
+                        Car newCar = new Car(model, findEngine);
                         listOfCars.Add(newCar);
-                    }                                 
+                    }
                 }
 
                 else if (inputArray.Length == 3)
@@ -77,7 +77,7 @@ namespace CarSalesman
 
                     if (listOfEngines.Any(e => e.Model == engineModel))
                     {
-                        Engine findedEngine = listOfEngines.Where(e => e.Model == engineModel).First();                    
+                        Engine findedEngine = listOfEngines.Where(e => e.Model == engineModel).First();
                         if (char.IsDigit(thirdParam[0]))
                         {
                             string weight = inputArray[2];
