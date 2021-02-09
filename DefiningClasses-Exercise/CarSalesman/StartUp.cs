@@ -111,13 +111,7 @@ namespace CarSalesman
 
             foreach (var car in listOfCars)
             {
-                Console.WriteLine(car.Model);
-                Console.WriteLine(car.Engine.Model);
-                Console.WriteLine($"Power: {car.Engine.Power}");
-                Console.WriteLine($"Displacement: {car.Engine.Displacement}");
-                Console.WriteLine($"Efficiency: {car.Engine.Efficiency}");
-                Console.WriteLine($"Weight: {car.Weight}");
-                Console.WriteLine($"Color: {car.Color}");
+                Console.WriteLine(car.ToString());
             }
         }
     }
