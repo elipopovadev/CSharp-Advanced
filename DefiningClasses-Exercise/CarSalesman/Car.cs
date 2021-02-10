@@ -8,11 +8,23 @@ namespace CarSalesman
         {
             this.Model = model;
             this.Engine = engine;
-            this.Weight = "n/a";
+            this.Weight = 0;
             this.Color = "n/a";
         }
+        public Car(string model, Engine engine, int weight)
+         : this(model, engine)
+        {
+            this.Weight = weight;
+        }
 
-        public Car(string model, Engine engine, string weight, string color)
+        public Car(string model, Engine engine, string color)
+        : this(model, engine)
+        {
+            this.Color = color;
+        }
+
+
+        public Car(string model, Engine engine, int weight, string color)
             : this(model, engine)
         {
             this.Weight = weight;
@@ -21,7 +33,7 @@ namespace CarSalesman
 
         public string Model { get; set; }
         public Engine Engine { get; set; }
-        public string Weight { get; set; }
+        public int Weight { get; set; }
         public string Color { get; set; }
 
         public override string ToString()
@@ -30,9 +42,27 @@ namespace CarSalesman
             sb.AppendLine($"{this.Model}:");
             sb.AppendLine($"  {this.Engine.Model}:");
             sb.AppendLine($"   Power: {  this.Engine.Power}");
-            sb.AppendLine($"   Displacement: {this.Engine.Displacement}");
+            if (this.Engine.Displacement == 0)
+            {
+                sb.AppendLine("   Displacement: n/a");
+            }
+
+            else
+            {
+                sb.AppendLine($"   Displacement: {this.Engine.Displacement}");
+            }
+
             sb.AppendLine($"   Efficiency: {this.Engine.Efficiency}");
-            sb.AppendLine($"  Weight: {this.Weight}");
+            if (this.Weight == 0)
+            {
+                sb.AppendLine("  Weight: n/a");
+            }
+
+            else
+            {
+                sb.AppendLine($"  Weight: {this.Weight}");
+            }
+
             sb.AppendLine($"  Color: { this.Color}");
             return sb.ToString().Trim();
         }

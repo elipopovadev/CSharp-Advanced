@@ -27,17 +27,16 @@ namespace CarSalesman
                     string model = inputArray[0];
                     string power = inputArray[1];
                     string thirdParam = inputArray[2]; //displacement or efficiency
-                    if (char.IsDigit(thirdParam[0]))
+                    if (int.TryParse(thirdParam, out int displacement))
                     {
-                        string displacement = inputArray[2];
-                        Engine newEngine = new Engine(model, power, displacement, "n/a");
+                        Engine newEngine = new Engine(model, power, displacement);
                         listOfEngines.Add(newEngine);
                     }
 
                     else
                     {
                         string efficiency = inputArray[2];
-                        Engine newEngine = new Engine(model, power, "n/a", efficiency);
+                        Engine newEngine = new Engine(model, power, efficiency);
                         listOfEngines.Add(newEngine);
                     }
                 }
@@ -46,7 +45,7 @@ namespace CarSalesman
                 {
                     string model = inputArray[0];
                     string power = inputArray[1];
-                    string displacement = inputArray[2];
+                    int displacement = int.Parse(inputArray[2]);
                     string efficiency = inputArray[3];
                     Engine newEngine = new Engine(model, power, displacement, efficiency);
                     listOfEngines.Add(newEngine);
@@ -74,21 +73,19 @@ namespace CarSalesman
                     string model = inputArray[0];
                     string engineModel = inputArray[1];
                     string thirdParam = inputArray[2]; // weight or color
-
                     if (listOfEngines.Any(e => e.Model == engineModel))
                     {
                         Engine findedEngine = listOfEngines.Where(e => e.Model == engineModel).First();
-                        if (char.IsDigit(thirdParam[0]))
+                        if (int.TryParse(thirdParam, out int weight))
                         {
-                            string weight = inputArray[2];
-                            var newCar = new Car(model, findedEngine, weight, "n/a");
+                            var newCar = new Car(model, findedEngine, weight);
                             listOfCars.Add(newCar);
                         }
 
                         else
                         {
                             string color = inputArray[2];
-                            var newCar = new Car(model, findedEngine, "n/a", color);
+                            var newCar = new Car(model, findedEngine, color);
                             listOfCars.Add(newCar);
                         }
                     }
@@ -98,7 +95,7 @@ namespace CarSalesman
                 {
                     string model = inputArray[0];
                     string engineModel = inputArray[1];
-                    string weight = inputArray[2];
+                    int weight = int.Parse(inputArray[2]);
                     string color = inputArray[3];
                     if (listOfEngines.Any(e => e.Model == engineModel))
                     {
