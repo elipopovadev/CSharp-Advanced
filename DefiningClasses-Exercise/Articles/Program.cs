@@ -46,6 +46,7 @@ namespace Articles
         }
     }
 
+
     public class Article
     {
         public Article(string title, string content, string author)
