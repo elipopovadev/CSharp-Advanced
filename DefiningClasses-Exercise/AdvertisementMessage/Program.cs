@@ -29,7 +29,6 @@ namespace AdvertisementMessage
             var cities = new string[]
             {"Burgas", "Sofia", "Plovdiv", "Varna", "Ruse"};
  
-
             int numberOfMessages = int.Parse(Console.ReadLine());
             Random generator = new Random(); // Random is out the loop NB!
             for (int i = 0; i < numberOfMessages; i++)
