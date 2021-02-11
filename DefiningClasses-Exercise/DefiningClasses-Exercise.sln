@@ -23,15 +23,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoftUniParking", "SoftUniPa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonTrainer", "PokemonTrainer\PokemonTrainer.csproj", "{23BEE90F-5689-4636-AFE1-DDD8AC814758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvertisementMessage", "AdvertisementMessage\AdvertisementMessage.csproj", "{BC5B03E4-0F85-4972-895D-C113BFB3D377}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdvertisementMessage", "AdvertisementMessage\AdvertisementMessage.csproj", "{BC5B03E4-0F85-4972-895D-C113BFB3D377}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Articles", "Articles\Articles.csproj", "{D136F7EE-8B2A-4B4B-95A9-0A6EC06FBA63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Articles", "Articles\Articles.csproj", "{D136F7EE-8B2A-4B4B-95A9-0A6EC06FBA63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Articles2.0", "Articles2.0\Articles2.0.csproj", "{82322C74-8A9D-4F43-9E4C-23A19E7D4A7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Articles2.0", "Articles2.0\Articles2.0.csproj", "{82322C74-8A9D-4F43-9E4C-23A19E7D4A7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Students", "Students\Students.csproj", "{4041684A-654A-42CA-A3BF-448DE7E34942}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Students", "Students\Students.csproj", "{4041684A-654A-42CA-A3BF-448DE7E34942}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamworkProjects", "TeamworkProjects\TeamworkProjects.csproj", "{13A9A03A-7FC2-4A81-80E4-303991A23320}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamworkProjects", "TeamworkProjects\TeamworkProjects.csproj", "{13A9A03A-7FC2-4A81-80E4-303991A23320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleCatalogue", "VehicleCatalogue\VehicleCatalogue.csproj", "{E572DA85-6079-4D7B-8009-C0B4FBE928E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{13A9A03A-7FC2-4A81-80E4-303991A23320}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13A9A03A-7FC2-4A81-80E4-303991A23320}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13A9A03A-7FC2-4A81-80E4-303991A23320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E572DA85-6079-4D7B-8009-C0B4FBE928E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E572DA85-6079-4D7B-8009-C0B4FBE928E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E572DA85-6079-4D7B-8009-C0B4FBE928E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E572DA85-6079-4D7B-8009-C0B4FBE928E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
