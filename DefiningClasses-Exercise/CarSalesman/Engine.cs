@@ -6,7 +6,7 @@
         {
             this.Model = model;
             this.Power = power;
-            this.Displacement = 0;
+            this.Displacement = null;
             this.Efficiency = "n/a";
         }
 
@@ -31,7 +31,7 @@
 
         public string Model { get; set; }
         public string Power { get; set; }
-        public int Displacement { get; set; }
+        public int? Displacement { get; set; }
         public string Efficiency { get; set; }
     }
 }

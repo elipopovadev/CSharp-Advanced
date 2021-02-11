@@ -8,7 +8,7 @@ namespace CarSalesman
         {
             this.Model = model;
             this.Engine = engine;
-            this.Weight = 0;
+            this.Weight = null;
             this.Color = "n/a";
         }
         public Car(string model, Engine engine, int weight)
@@ -33,7 +33,7 @@ namespace CarSalesman
 
         public string Model { get; set; }
         public Engine Engine { get; set; }
-        public int Weight { get; set; }
+        public int? Weight { get; set; }
         public string Color { get; set; }
 
         public override string ToString()
@@ -42,7 +42,7 @@ namespace CarSalesman
             sb.AppendLine($"{this.Model}:");
             sb.AppendLine($"  {this.Engine.Model}:");
             sb.AppendLine($"   Power: {  this.Engine.Power}");
-            if (this.Engine.Displacement == 0)
+            if (this.Engine.Displacement == null)
             {
                 sb.AppendLine("   Displacement: n/a");
             }
@@ -53,7 +53,7 @@ namespace CarSalesman
             }
 
             sb.AppendLine($"   Efficiency: {this.Engine.Efficiency}");
-            if (this.Weight == 0)
+            if (this.Weight == null)
             {
                 sb.AppendLine("  Weight: n/a");
             }
