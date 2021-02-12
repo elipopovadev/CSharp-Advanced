@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\bin\Debug\netcoreapp3.1\GamingStore.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\bin\Debug\netcoreapp3.1\GamingStore.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\bin\Debug\netcoreapp3.1\GamingStore.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\bin\Debug\netcoreapp3.1\GamingStore.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\bin\Debug\netcoreapp3.1\GamingStore.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\bin\Debug\netcoreapp3.1\GamingStore.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\obj\Debug\netcoreapp3.1\GamingStore.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\obj\Debug\netcoreapp3.1\GamingStore.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\obj\Debug\netcoreapp3.1\GamingStore.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\obj\Debug\netcoreapp3.1\GamingStore.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\obj\Debug\netcoreapp3.1\GamingStore.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\obj\Debug\netcoreapp3.1\GamingStore.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\DefiningClasses-Exercise\GamingStore\obj\Debug\netcoreapp3.1\GamingStore.genruntimeconfig.cache

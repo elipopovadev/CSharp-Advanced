@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderByAge", "OrderByAge\Or
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyRoster", "CompanyRoster\CompanyRoster.csproj", "{8609A6EB-6189-4D56-BFB5-9C9DC2FDDAF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingSpree", "ShoppingSpree\ShoppingSpree.csproj", "{FC488683-E21A-4651-98A4-C6DD905AFFE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingSpree", "ShoppingSpree\ShoppingSpree.csproj", "{FC488683-E21A-4651-98A4-C6DD905AFFE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GamingStore", "GamingStore\GamingStore.csproj", "{9F322641-2504-4F67-8E0F-11CE8D546013}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{FC488683-E21A-4651-98A4-C6DD905AFFE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC488683-E21A-4651-98A4-C6DD905AFFE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC488683-E21A-4651-98A4-C6DD905AFFE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F322641-2504-4F67-8E0F-11CE8D546013}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F322641-2504-4F67-8E0F-11CE8D546013}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F322641-2504-4F67-8E0F-11CE8D546013}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F322641-2504-4F67-8E0F-11CE8D546013}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
