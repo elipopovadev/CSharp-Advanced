@@ -3,7 +3,7 @@ using System.Text;
 
 namespace CreateCustomList
 {
-    public class CustomList
+    public class CustomList<T>
     {
         private const int InitialCapacity = 2;
         private int[] elementsInTheList;
@@ -43,7 +43,7 @@ namespace CreateCustomList
             this.elementsInTheList = newArray;
         }
 
-        private void ShifToLeft(int index)
+        private void ShiftToLeft(int index)
         {
             for (int i = index; i < this.Count - 1; i++)
             {
@@ -105,7 +105,7 @@ namespace CreateCustomList
         public void RemoveAt(int index)
         {
             ValidateIndex(index);
-            ShifToLeft(index);
+            ShiftToLeft(index);
             this.Count--;
             if (this.Count <= this.elementsInTheList.Length / 4)
             {

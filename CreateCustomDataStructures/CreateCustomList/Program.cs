@@ -13,6 +13,8 @@ namespace CreateCustomList
             customList.Insert(1,100);
             customList.RemoveAt(2);
             customList.Swap(1,2);
+            var checker = customList.Contains(100);
+            Console.WriteLine(checker);
             Console.WriteLine(string.Join(" ",customList));  // 1 100 10         
         }
     }
