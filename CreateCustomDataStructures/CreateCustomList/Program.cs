@@ -8,15 +8,14 @@ namespace CreateCustomList
         {
             var customList = new CustomList();
             customList.Add(1);
-            Console.WriteLine(customList.Count);
             customList.Add(2);
-            Console.WriteLine(customList.Count);
-            Console.WriteLine();
-            customList.Add(3);
-            customList.Add(4);
-            Console.WriteLine(customList.Count);
-            
-            
+
+            customList.Insert(2,10);
+            customList.Insert(1, 100);
+
+            customList.RemoveAt(2);
+
+            Console.WriteLine(string.Join(" ",customList));           
         }
     }
 }

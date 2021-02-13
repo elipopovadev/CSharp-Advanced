@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace CreateCustomList
 {
@@ -24,9 +25,9 @@ namespace CreateCustomList
 
         private void ShiftToRight(int index, int itemToInsert)
         {
-            for (int i = this.Count - 1; i >= index; i--)
+            for (int i = this.Count; i > index; i--)
             {
-                this.elementsInTheList[index] = this.elementsInTheList[index - 1];
+                this.elementsInTheList[i] = this.elementsInTheList[i - 1];
             }
             this.elementsInTheList[index] = itemToInsert;
         }
@@ -44,11 +45,11 @@ namespace CreateCustomList
 
         private void ShifToLeft(int index)
         {
-            this.elementsInTheList[index] = 0;
-            for (int i = index; i < this.Count - 2; i++)
+            for (int i = index; i < this.Count - 1; i++)
             {
                 this.elementsInTheList[i] = this.elementsInTheList[i + 1];
             }
+            this.elementsInTheList[this.Count - 1] = 0;
         }
 
         private void ValidateIndex(int index)
@@ -62,7 +63,6 @@ namespace CreateCustomList
         private void ResizeTheArray(int element)
         {
             int[] newArray = new int[2 * currentCapacity];
-            newArray[this.Count] = element;
             for (int i = 0; i < this.Count; i++)
             {
                 newArray[i] = this.elementsInTheList[i];
@@ -90,15 +90,15 @@ namespace CreateCustomList
         {
             if (this.Count + 1 > currentCapacity)
             {
-                int[] newArray = new int[2 * currentCapacity];
                 ResizeTheArray(element);
-                newArray[this.Count] = element;
+                this.elementsInTheList[this.Count - 1] = element;
             }
 
             else
             {
-                this.elementsInTheList[this.Count] = element;
                 this.Count++;
+                this.elementsInTheList[this.Count - 1] = element;
+
             }
         }
 
@@ -158,6 +158,18 @@ namespace CreateCustomList
             var firstElement = this.elementsInTheList[firstIndex];
             this.elementsInTheList[firstIndex] = this.elementsInTheList[secondIndex];
             this.elementsInTheList[secondIndex] = firstElement;
+        }
+
+        public override string ToString()
+        {
+            var sb = new StringBuilder();
+            for (int i = 0; i < this.Count; i++)
+            {
+               string item = this.elementsInTheList[i].ToString();
+               sb.Append(item + " ");
+            }
+           
+            return sb.ToString().Remove(sb.Length - 1, 1);
         }
     }
 }
