@@ -54,7 +54,7 @@ namespace CreateCustomList
 
         private void ValidateIndex(int index)
         {
-            if (index < 0 || index >= Count)
+            if (index < 0 || index >= this.Count)
             {
                 throw new Exception("Index is invalid!");
             }
@@ -91,14 +91,13 @@ namespace CreateCustomList
             if (this.Count + 1 > currentCapacity)
             {
                 ResizeTheArray();
-                this.elementsInTheList[this.Count - 1] = element;
+                this.elementsInTheList[this.Count-1] = element;
             }
 
             else
             {
                 this.Count++;
                 this.elementsInTheList[this.Count - 1] = element;
-
             }
         }
 
