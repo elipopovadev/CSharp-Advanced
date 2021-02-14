@@ -6,24 +6,24 @@ namespace CreateCustomList
     public class CustomList<T>
     {
         private const int InitialCapacity = 2;
-        private int[] elementsInTheList;
+        private T[] elementsInTheList;
         private int currentCapacity;
 
         public CustomList()
         {
-            elementsInTheList = new int[InitialCapacity];
+            elementsInTheList = new T[InitialCapacity];
             currentCapacity = InitialCapacity;
         }
 
         public CustomList(int capacity)
         {
-            elementsInTheList = new int[capacity];
+            elementsInTheList = new T[capacity];
             currentCapacity = capacity;
         }
 
         public int Count { get; private set; }
 
-        private void ShiftToRight(int index, int itemToInsert)
+        private void ShiftToRight(int index, T itemToInsert)
         {
             for (int i = this.Count; i > index; i--)
             {
@@ -34,7 +34,7 @@ namespace CreateCustomList
 
         private void Shrink()
         {
-            int[] newArray = new int[currentCapacity / 2];
+            T[] newArray = new T[currentCapacity / 2];
             for (int i = 0; i < this.Count; i++)
             {
                 newArray[i] = this.elementsInTheList[i];
@@ -49,7 +49,7 @@ namespace CreateCustomList
             {
                 this.elementsInTheList[i] = this.elementsInTheList[i + 1];
             }
-            this.elementsInTheList[this.Count - 1] = 0;
+            this.elementsInTheList[this.Count - 1] = default;
         }
 
         private void ValidateIndex(int index)
@@ -60,9 +60,9 @@ namespace CreateCustomList
             }
         }
 
-        private void ResizeTheArray(int element)
+        private void ResizeTheArray()
         {
-            int[] newArray = new int[2 * currentCapacity];
+            T[] newArray = new T[2 * currentCapacity];
             for (int i = 0; i < this.Count; i++)
             {
                 newArray[i] = this.elementsInTheList[i];
@@ -72,7 +72,7 @@ namespace CreateCustomList
             this.elementsInTheList = newArray;
         }
 
-        public int this[int index]
+        public T this[int index]
         {
             get
             {
@@ -86,11 +86,11 @@ namespace CreateCustomList
             }
         }
 
-        public void Add(int element)
+        public void Add(T element)
         {
             if (this.Count + 1 > currentCapacity)
             {
-                ResizeTheArray(element);
+                ResizeTheArray();
                 this.elementsInTheList[this.Count - 1] = element;
             }
 
@@ -113,7 +113,7 @@ namespace CreateCustomList
             }
         }
 
-        public void Insert(int index, int item)
+        public void Insert(int index, T item)
         {
             if (index < 0 || index > this.Count)
             {
@@ -127,7 +127,7 @@ namespace CreateCustomList
 
             else if (this.Count + 1 > currentCapacity)
             {
-                ResizeTheArray(item);
+                ResizeTheArray();
                 ShiftToRight(index, item);
                 this.Count++;
             }
@@ -142,7 +142,7 @@ namespace CreateCustomList
         {
             foreach (var item in this.elementsInTheList)
             {
-                if (item == element)
+                if (item.Equals(element))
                 {
                     return true;
                 }
