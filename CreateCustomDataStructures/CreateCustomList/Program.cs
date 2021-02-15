@@ -18,6 +18,7 @@ namespace CreateCustomList
             var checker = customList.Contains(100);
             Console.WriteLine(checker);
             Console.WriteLine(string.Join(" ",customList));  // 10  100       
+            Console.WriteLine($"Count is {customList.Count}"); // 2
         }
     }
 }

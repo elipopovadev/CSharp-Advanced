@@ -67,7 +67,6 @@ namespace CreateCustomList
             {
                 newArray[i] = this.elementsInTheList[i];
             }
-            this.Count++;
             currentCapacity = newArray.Length;
             this.elementsInTheList = newArray;
         }
@@ -91,6 +90,7 @@ namespace CreateCustomList
             if (this.Count + 1 > currentCapacity)
             {
                 ResizeTheArray();
+                this.Count++;
                 this.elementsInTheList[this.Count-1] = element;
             }
 
