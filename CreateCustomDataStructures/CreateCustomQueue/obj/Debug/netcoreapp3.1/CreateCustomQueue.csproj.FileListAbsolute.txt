@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\bin\Debug\netcoreapp3.1\CreateCustomQueue.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\bin\Debug\netcoreapp3.1\CreateCustomQueue.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\bin\Debug\netcoreapp3.1\CreateCustomQueue.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\bin\Debug\netcoreapp3.1\CreateCustomQueue.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\bin\Debug\netcoreapp3.1\CreateCustomQueue.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\bin\Debug\netcoreapp3.1\CreateCustomQueue.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\obj\Debug\netcoreapp3.1\CreateCustomQueue.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\obj\Debug\netcoreapp3.1\CreateCustomQueue.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\obj\Debug\netcoreapp3.1\CreateCustomQueue.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\obj\Debug\netcoreapp3.1\CreateCustomQueue.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\obj\Debug\netcoreapp3.1\CreateCustomQueue.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\obj\Debug\netcoreapp3.1\CreateCustomQueue.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateCustomQueue\obj\Debug\netcoreapp3.1\CreateCustomQueue.genruntimeconfig.cache
