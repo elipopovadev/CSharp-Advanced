@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateCustomList", "CreateC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateCustomStack", "CreateCustomStack\CreateCustomStack.csproj", "{5EF8E187-A2BD-453E-8803-FFCBE78D82BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateCustomQueue", "CreateCustomQueue\CreateCustomQueue.csproj", "{FAAAAF1F-19C0-41B4-954F-003E088B511D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateCustomQueue", "CreateCustomQueue\CreateCustomQueue.csproj", "{FAAAAF1F-19C0-41B4-954F-003E088B511D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateLinkedList", "CreateLinkedList\CreateLinkedList.csproj", "{5126412F-4AF5-4D0C-8A56-23DD3DFAE393}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{FAAAAF1F-19C0-41B4-954F-003E088B511D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAAAAF1F-19C0-41B4-954F-003E088B511D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAAAAF1F-19C0-41B4-954F-003E088B511D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5126412F-4AF5-4D0C-8A56-23DD3DFAE393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5126412F-4AF5-4D0C-8A56-23DD3DFAE393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5126412F-4AF5-4D0C-8A56-23DD3DFAE393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5126412F-4AF5-4D0C-8A56-23DD3DFAE393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
