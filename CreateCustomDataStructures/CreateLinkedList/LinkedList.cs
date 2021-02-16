@@ -12,7 +12,17 @@ namespace CreateLinkedList
             this.Tail = default;
             this.Count = 0;
         }
+        private class Node
+        {
+            public Node(int value, Node nextNode)
+            {
+                this.Value = value;
+                this.NextNode = nextNode;
+            }
 
+            public int Value { get; set; }
+            public Node NextNode { get; set; }
+        }
         private Node Head { get; set; }
         private Node Tail { get; set; }
         public int Count { get; private set; }

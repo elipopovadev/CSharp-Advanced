@@ -18,9 +18,6 @@ namespace CreateLinkedList
             {
                 Console.WriteLine(item); // 1
             }
-            Console.WriteLine();
-            Console.WriteLine(newLinkedList.Head.Value); // 1
-            Console.WriteLine(newLinkedList.Tail.Value); // 1
             Console.WriteLine($"Count {newLinkedList.Count}"); // 1
         }
     }
