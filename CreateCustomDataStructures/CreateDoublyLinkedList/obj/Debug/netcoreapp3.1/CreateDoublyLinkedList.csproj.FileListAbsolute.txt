@@ -1,0 +1,13 @@
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\bin\Debug\netcoreapp3.1\CreateDoublyLinkedList.exe
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\bin\Debug\netcoreapp3.1\CreateDoublyLinkedList.deps.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\bin\Debug\netcoreapp3.1\CreateDoublyLinkedList.runtimeconfig.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\bin\Debug\netcoreapp3.1\CreateDoublyLinkedList.runtimeconfig.dev.json
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\bin\Debug\netcoreapp3.1\CreateDoublyLinkedList.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\bin\Debug\netcoreapp3.1\CreateDoublyLinkedList.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\obj\Debug\netcoreapp3.1\CreateDoublyLinkedList.csprojAssemblyReference.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\obj\Debug\netcoreapp3.1\CreateDoublyLinkedList.AssemblyInfoInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\obj\Debug\netcoreapp3.1\CreateDoublyLinkedList.AssemblyInfo.cs
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\obj\Debug\netcoreapp3.1\CreateDoublyLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\obj\Debug\netcoreapp3.1\CreateDoublyLinkedList.dll
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\obj\Debug\netcoreapp3.1\CreateDoublyLinkedList.pdb
+C:\Users\eli\Desktop\AllMyRepos\CSharp-Advanced\CreateCustomDataStructures\CreateDoublyLinkedList\obj\Debug\netcoreapp3.1\CreateDoublyLinkedList.genruntimeconfig.cache

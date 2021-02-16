@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace CreateLinkedList 
 {
-    class LinkedList : IEnumerable<int>
+    public class LinkedList : IEnumerable<int>
     {
         public LinkedList()
         {
@@ -13,8 +13,8 @@ namespace CreateLinkedList
             this.Count = 0;
         }
 
-        public Node Head { get; private set; }
-        public Node Tail { get;private set; }
+        private Node Head { get; set; }
+        private Node Tail { get; set; }
         public int Count { get; private set; }
 
         public void AddFirst(int element)
