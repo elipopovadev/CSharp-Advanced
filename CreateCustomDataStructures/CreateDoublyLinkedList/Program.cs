@@ -18,6 +18,7 @@ namespace CreateDoublyLinkedList
             newList.RemoveLast();
             newList.RemoveLast();
             var newArray = newList.ToArray(); // 2 3
+            Console.WriteLine(newArray.Length); // 2
             foreach (var item in newArray)
             {
                 Console.WriteLine(item);
