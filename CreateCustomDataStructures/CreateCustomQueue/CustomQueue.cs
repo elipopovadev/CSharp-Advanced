@@ -4,22 +4,22 @@ using System.Collections.Generic;
 
 namespace CreateCustomQueue
 {
-    public class CustomQueue : IEnumerable<int>
+    public class CustomQueue<T> : IEnumerable<T>
     {
         private const int InitialCapacity = 4;
         private int currentCapacity;
-        public int[] elementsInQueue;
+        public T[] elementsInQueue;
 
         public CustomQueue()
         {
             currentCapacity = InitialCapacity;
-            this.elementsInQueue = new int[currentCapacity];
+            this.elementsInQueue = new T[currentCapacity];
         }
 
         public CustomQueue(int capacity)
         {
             currentCapacity = capacity;
-            this.elementsInQueue = new int[currentCapacity];
+            this.elementsInQueue = new T[currentCapacity];
         }
 
         private void Validate()
@@ -32,9 +32,9 @@ namespace CreateCustomQueue
 
         public int Count { get; private set; }
 
-        private int[] Resize()
+        private T[] Resize()
         {
-            int[] newArray = new int[2 * currentCapacity];
+            T[] newArray = new T[2 * currentCapacity];
             this.currentCapacity = newArray.Length;
             int currentIndex = this.currentCapacity - 1;
             for (int k = this.Count - 1; k >= 0; k--)
@@ -46,9 +46,9 @@ namespace CreateCustomQueue
             return newArray;
         }
 
-        private int[] Shrink()
+        private T[] Shrink()
         {
-            var newArray = new int[currentCapacity / 2];
+            T[] newArray = new T[currentCapacity / 2];
             this.currentCapacity = newArray.Length;
             int currentIndex = this.currentCapacity - 1;
             for (int k = this.Count - 1; k >= 1; k--)
@@ -60,11 +60,11 @@ namespace CreateCustomQueue
             return newArray;
         }
 
-        public void Enqueue(int element)
+        public void Enqueue(T element)
         {
             if (this.Count == currentCapacity)
             {
-                int[] newArray = Resize();
+                T[] newArray = Resize();
                 int indexForNewElement = this.currentCapacity - this.Count - 1;
                 newArray[indexForNewElement] = element;
                 this.elementsInQueue = newArray;
@@ -79,11 +79,11 @@ namespace CreateCustomQueue
             }
         }
 
-        public int Dequeue()
+        public T Dequeue()
         {
             Validate();
             int indexForFirstElement = this.currentCapacity - this.Count;
-            int firstElement = this.elementsInQueue[indexForFirstElement];
+            T firstElement = this.elementsInQueue[indexForFirstElement];
             if (this.Count - 1 <= currentCapacity / 4)
             {
                 Shrink();
@@ -95,15 +95,15 @@ namespace CreateCustomQueue
             return firstElement;
         }
 
-        public int Peek()
+        public T Peek()
         {
             Validate();
             int indexForFirstElement = this.currentCapacity - this.Count;
-            int firstElement = this.elementsInQueue[indexForFirstElement];
+            T firstElement = this.elementsInQueue[indexForFirstElement];
             return firstElement;
         }
 
-        public IEnumerator<int> GetEnumerator()
+        public IEnumerator<T> GetEnumerator()
         {
             int startIndex = this.currentCapacity - this.Count;
             for (int i = startIndex; i < currentCapacity; i++)

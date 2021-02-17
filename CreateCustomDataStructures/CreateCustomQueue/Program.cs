@@ -6,11 +6,11 @@ namespace CreateCustomQueue
     {
         static void Main(string[] args)
         {
-            var queue = new CustomQueue();
-            queue.Enqueue(3);
-            queue.Enqueue(1);
-            queue.Enqueue(2);
-            queue.Enqueue(5);
+            var queue = new CustomQueue<string>();
+            queue.Enqueue("3");
+            queue.Enqueue("1");
+            queue.Enqueue("2");
+            queue.Enqueue("5");
             queue.Dequeue();
             queue.Dequeue();
             Console.WriteLine(queue.Peek()); // 1
