@@ -6,7 +6,7 @@ namespace CreateDoublyLinkedList
     {
         static void Main(string[] args)
         {
-            var newList = new DoublyLinkedList();
+            var newList = new DoublyLinkedList<int>();
             newList.AddFirst(2);
             newList.AddFirst(1);
             newList.AddLast(3);
@@ -17,11 +17,11 @@ namespace CreateDoublyLinkedList
             newList.RemoveFirst();
             newList.RemoveLast();
             newList.RemoveLast();
-            var newArray = newList.ToArray(); // 2 3
+            var newArray = newList.ToArray(); 
             Console.WriteLine(newArray.Length); // 2
             foreach (var item in newArray)
             {
-                Console.WriteLine(item);
+                Console.WriteLine(item); // 2 3
             }
         }
     }

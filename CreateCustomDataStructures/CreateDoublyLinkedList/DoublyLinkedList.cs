@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace CreateDoublyLinkedList
 {
-    public class DoublyLinkedList : IEnumerable<int>
+    public class DoublyLinkedList<T> : IEnumerable<T>
     {
         public DoublyLinkedList()
         {
@@ -14,7 +14,7 @@ namespace CreateDoublyLinkedList
 
         private class Node
         {
-            public Node(Node previousNode, int value, Node nextNode)
+            public Node(Node previousNode, T value, Node nextNode)
             {
                 this.PreviousNode = previousNode;
                 this.Value = value;
@@ -22,14 +22,14 @@ namespace CreateDoublyLinkedList
             }
 
             public Node PreviousNode { get; set; }
-            public int  Value { get; set; }
+            public T  Value { get; set; }
             public Node NextNode { get; set; }
         }
         private Node Head { get; set; }
         private Node Tail { get; set; }
         public int Count { get; private set; }
 
-        public void AddFirst(int element)
+        public void AddFirst(T element)
         {
             if (this.Count == 0)
             {
@@ -45,7 +45,7 @@ namespace CreateDoublyLinkedList
             }          
         }
 
-        public void AddLast(int element)
+        public void AddLast(T element)
         {
             if (this.Count == 0)
             {
@@ -61,7 +61,7 @@ namespace CreateDoublyLinkedList
             }           
         }
 
-        public int RemoveFirst()
+        public T RemoveFirst()
         {
             if (this.Count == 0)
             {
@@ -76,7 +76,7 @@ namespace CreateDoublyLinkedList
             return firstNode.Value;          
         }
 
-        public int RemoveLast()
+        public T RemoveLast()
         {
             if (this.Count == 0)
             {
@@ -91,7 +91,7 @@ namespace CreateDoublyLinkedList
             return lastNode.Value;
         }
 
-        public IEnumerator<int> GetEnumerator()
+        public IEnumerator<T> GetEnumerator()
         {
             var currentNode = this.Head;
             for (int i = 0; i < this.Count; i++)
@@ -106,9 +106,9 @@ namespace CreateDoublyLinkedList
             return GetEnumerator();
         }
 
-        public int[] ToArray()
+        public T[] ToArray()
         {
-            var newArray = new int[this.Count];
+            var newArray = new T[this.Count];
             var currentNode = this.Head;
             for (int i = 0; i <= newArray.Length-1; i++)
             {
