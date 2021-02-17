@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace CreateLinkedList 
 {
-    public class LinkedList : IEnumerable<int>
+    public class LinkedList<T> : IEnumerable<T>
     {
         public LinkedList()
         {
@@ -14,20 +14,20 @@ namespace CreateLinkedList
         }
         private class Node
         {
-            public Node(int value, Node nextNode)
+            public Node(T value, Node nextNode)
             {
                 this.Value = value;
                 this.NextNode = nextNode;
             }
 
-            public int Value { get; set; }
+            public T Value { get; set; }
             public Node NextNode { get; set; }
         }
         private Node Head { get; set; }
         private Node Tail { get; set; }
         public int Count { get; private set; }
 
-        public void AddFirst(int element)
+        public void AddFirst(T element)
         {
             if (this.Count == 0)
             {
@@ -42,7 +42,7 @@ namespace CreateLinkedList
             this.Count++;
         }
 
-        public void AddLast(int element)
+        public void AddLast(T element)
         {
             if (this.Count == 0)
             {
@@ -58,7 +58,7 @@ namespace CreateLinkedList
             this.Count++;
         }
 
-        public int RemoveFirst()
+        public T RemoveFirst()
         {
             if (this.Head == this.Tail)
             {
@@ -82,7 +82,7 @@ namespace CreateLinkedList
             }
         }
 
-        public int RemoveLast()
+        public T RemoveLast()
         {
             if (this.Head == this.Tail)
             {
@@ -113,7 +113,7 @@ namespace CreateLinkedList
             }
         }
 
-        public IEnumerator<int> GetEnumerator()
+        public IEnumerator<T> GetEnumerator()
         {
             var currentNode = this.Head;
             while (currentNode != null)
@@ -128,9 +128,9 @@ namespace CreateLinkedList
             return GetEnumerator();
         }
 
-        public int[] ToArray()         
+        public T[] ToArray()         
         {
-            int[] newArray = new int[this.Count];
+            T[] newArray = new T[this.Count];
             var currentNode = this.Head;
             for (int counter = 0; counter < this.Count; counter++)
             {

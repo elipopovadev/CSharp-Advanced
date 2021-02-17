@@ -6,7 +6,7 @@ namespace CreateLinkedList
     {
         static void Main(string[] args)
         {
-            var newLinkedList = new LinkedList();
+            var newLinkedList = new LinkedList<int>();
             newLinkedList.AddFirst(1);
             newLinkedList.RemoveFirst();
             newLinkedList.AddLast(2);
