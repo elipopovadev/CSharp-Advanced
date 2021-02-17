@@ -6,7 +6,7 @@ namespace CreateCustomStack
     {
         static void Main(string[] args)
         {
-            var stack = new CustomStack();
+            var stack = new CustomStack<int>();
             stack.Push(1);
             stack.Push(2);
             stack.Push(3);

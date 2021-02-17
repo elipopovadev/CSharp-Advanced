@@ -4,21 +4,21 @@ using System.Collections.Generic;
 
 namespace CreateCustomStack
 {
-    class CustomStack : IEnumerable<int>
+    class CustomStack<T> : IEnumerable<T>
     {
         private const int InitialCapacity = 4;
         private int currentCapacity = InitialCapacity;
-        private int[] elementsInTheStack;
+        private T[] elementsInTheStack;
 
         public CustomStack()
         {
-            this.elementsInTheStack = new int[InitialCapacity];
+            this.elementsInTheStack = new T[InitialCapacity];
             this.currentCapacity = InitialCapacity;
         }
 
         public CustomStack(int currentCapacity)
         {
-            this.elementsInTheStack = new int[currentCapacity];
+            this.elementsInTheStack = new T[currentCapacity];
             this.currentCapacity = currentCapacity;
         }
 
@@ -26,7 +26,7 @@ namespace CreateCustomStack
 
         private void ResizeTheArray()
         {
-            int[] newArray = new int[currentCapacity * 2];
+            T[] newArray = new T[currentCapacity * 2];
             for (int i = 0; i < this.Count; i++)
             {
                 newArray[i] = this.elementsInTheStack[i];
@@ -37,7 +37,7 @@ namespace CreateCustomStack
         }
         private void Shrink()
         {
-            int[] newArray = new int[currentCapacity / 2];
+            T[] newArray = new T[currentCapacity / 2];
             for (int i = 0; i < this.Count - 1; i++)
             {
                 newArray[i] = this.elementsInTheStack[i];
@@ -54,7 +54,7 @@ namespace CreateCustomStack
             }
         }
 
-        public void Push(int element)
+        public void Push(T element)
         {
             if (this.Count + 1 > currentCapacity)
             {
@@ -68,10 +68,10 @@ namespace CreateCustomStack
             }
         }
 
-        public int Pop()
+        public T Pop()
         {
             ValidateTheStack();
-            int lastElement = this.elementsInTheStack[this.Count - 1];
+            T lastElement = this.elementsInTheStack[this.Count - 1];
             if (this.Count - 1 <= currentCapacity / 4)
             {
                 Shrink();
@@ -83,14 +83,14 @@ namespace CreateCustomStack
             return lastElement;
         }
 
-        public int Peek()
+        public T Peek()
         {
             ValidateTheStack();
-            int lastElement = this.elementsInTheStack[this.Count - 1];
+            T lastElement = this.elementsInTheStack[this.Count - 1];
             return lastElement;
         }
 
-        public IEnumerator<int> GetEnumerator()
+        public IEnumerator<T> GetEnumerator()
         {
             for (int i = 0; i < this.Count; i++)
             {
