@@ -7,17 +7,18 @@ namespace CreateCustomQueue
         static void Main(string[] args)
         {
             var queue = new CustomQueue<string>();
-            queue.Enqueue("3");
             queue.Enqueue("1");
             queue.Enqueue("2");
+            queue.Enqueue("3");
+            queue.Enqueue("4");
             queue.Enqueue("5");
             queue.Dequeue();
             queue.Dequeue();
-            Console.WriteLine(queue.Peek()); // 1
+            Console.WriteLine(queue.Peek()); // 3
 
             foreach (var item in queue)
             {
-                Console.WriteLine(item); // 1 3
+                Console.WriteLine(item); // 3 4 5
             }           
         }
     }

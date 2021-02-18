@@ -36,13 +36,7 @@ namespace CreateCustomQueue
         {
             T[] newArray = new T[2 * currentCapacity];
             this.currentCapacity = newArray.Length;
-            int currentIndex = this.currentCapacity - 1;
-            for (int k = this.Count - 1; k >= 0; k--)
-            {
-                newArray[currentIndex] = this.elementsInQueue[k];
-                currentIndex--;
-            }
-
+            this.elementsInQueue.CopyTo(newArray, 0);
             return newArray;
         }
 
@@ -50,13 +44,11 @@ namespace CreateCustomQueue
         {
             T[] newArray = new T[currentCapacity / 2];
             this.currentCapacity = newArray.Length;
-            int currentIndex = this.currentCapacity - 1;
-            for (int k = this.Count - 1; k >= 1; k--)
+            for (int i = 0; i < this.Count-1; i++)
             {
-                newArray[currentIndex] = this.elementsInQueue[k];
-                currentIndex--;
+                newArray[0] = this.elementsInQueue[i + 1];
             }
-
+            this.elementsInQueue = newArray;
             return newArray;
         }
 
@@ -65,16 +57,15 @@ namespace CreateCustomQueue
             if (this.Count == currentCapacity)
             {
                 T[] newArray = Resize();
-                int indexForNewElement = this.currentCapacity - this.Count - 1;
-                newArray[indexForNewElement] = element;
+                newArray[this.Count] = element;
                 this.elementsInQueue = newArray;
                 this.Count++;
             }
 
             else
             {
-                int indexForNewElement = this.currentCapacity - this.Count - 1;
-                this.elementsInQueue[indexForNewElement] = element;
+               
+                this.elementsInQueue[this.Count] = element;
                 this.Count++;
             }
         }
@@ -82,31 +73,32 @@ namespace CreateCustomQueue
         public T Dequeue()
         {
             Validate();
-            int indexForFirstElement = this.currentCapacity - this.Count;
-            T firstElement = this.elementsInQueue[indexForFirstElement];
+            T firstElement = this.elementsInQueue[0];
             if (this.Count - 1 <= currentCapacity / 4)
             {
                 Shrink();
                 this.Count--;
                 return firstElement;
             }
+  
+            for (int i = 0; i < this.Count-1; i++)
+            {
+                this.elementsInQueue[i] = this.elementsInQueue[i + 1];
+            }
             this.Count--;
-            this.elementsInQueue[indexForFirstElement] = default;
             return firstElement;
         }
 
         public T Peek()
         {
             Validate();
-            int indexForFirstElement = this.currentCapacity - this.Count;
-            T firstElement = this.elementsInQueue[indexForFirstElement];
+            T firstElement = this.elementsInQueue[0];
             return firstElement;
         }
 
         public IEnumerator<T> GetEnumerator()
         {
-            int startIndex = this.currentCapacity - this.Count;
-            for (int i = startIndex; i < currentCapacity; i++)
+            for (int i = 0; i < this.Count; i++)
             {
                 yield return this.elementsInQueue[i];
             }
