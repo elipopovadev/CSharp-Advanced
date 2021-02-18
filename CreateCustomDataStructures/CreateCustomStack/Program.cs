@@ -16,7 +16,7 @@ namespace CreateCustomStack
             stack.Pop();
             foreach (var item in stack)
             {
-                Console.WriteLine(item); // 1 2 3 4
+                Console.WriteLine(item); // 4 3 2 1 
             }
 
             Console.WriteLine(stack.Count); // 4

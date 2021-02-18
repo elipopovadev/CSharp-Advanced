@@ -63,8 +63,7 @@ namespace CreateCustomQueue
             }
 
             else
-            {
-               
+            {              
                 this.elementsInQueue[this.Count] = element;
                 this.Count++;
             }

@@ -92,7 +92,7 @@ namespace CreateCustomStack
 
         public IEnumerator<T> GetEnumerator()
         {
-            for (int i = 0; i < this.Count; i++)
+            for (int i = this.Count - 1; i >= 0; i--)
             {
                 yield return this.elementsInTheStack[i];
             }
