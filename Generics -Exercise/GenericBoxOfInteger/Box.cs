@@ -1,4 +1,4 @@
-﻿namespace GenericBoxOfString
+﻿namespace GenericBoxOfInteger
 {
     public class Box<T>
     {
@@ -6,7 +6,7 @@
         {
             this.Data = data;
         }
-        
+
         public T Data { get; }
 
         public override string ToString()
