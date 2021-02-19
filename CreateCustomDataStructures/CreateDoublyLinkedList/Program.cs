@@ -23,6 +23,13 @@ namespace CreateDoublyLinkedList
             {
                 Console.WriteLine(item); // 2 3
             }
+;
+            newList.Reverse();
+            foreach (var item in newList)
+            {
+                Console.WriteLine(item); //  3 2
+            }
+
         }
     }
 }
