@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Box of T", "Box of T\Box of T.csproj", "{BA2D08C2-E892-4ABB-9362-A1C379BFAEB1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxOfT", "Box of T\BoxOfT.csproj", "{BA2D08C2-E892-4ABB-9362-A1C379BFAEB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericArrayCreator", "GenericArrayCreator\GenericArrayCreator.csproj", "{74B6CF84-0562-4DEF-BA82-FE8F800A14B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BA2D08C2-E892-4ABB-9362-A1C379BFAEB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA2D08C2-E892-4ABB-9362-A1C379BFAEB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA2D08C2-E892-4ABB-9362-A1C379BFAEB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B6CF84-0562-4DEF-BA82-FE8F800A14B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B6CF84-0562-4DEF-BA82-FE8F800A14B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B6CF84-0562-4DEF-BA82-FE8F800A14B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B6CF84-0562-4DEF-BA82-FE8F800A14B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
