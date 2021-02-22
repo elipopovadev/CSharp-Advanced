@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace GenericCountMethodString
 {
     class Box<T> : IComparable<Box<T>> where T : IComparable<T>
