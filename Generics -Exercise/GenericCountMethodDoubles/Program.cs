@@ -4,36 +4,38 @@ using System.Collections.Generic;
 namespace GenericCountMethodDoubles
 {
     class Program
-    {
+    {      
         static void Main(string[] args)
         {
             var listOfBoxes = new List<Box<double>>();
-            int numberOfElements = int.Parse(Console.ReadLine());
-            for (int i = 0; i < numberOfElements; i++)
+            int numberOfBoxes = int.Parse(Console.ReadLine());
+            for (int i = 0; i < numberOfBoxes; i++)
             {
-                double doubleNumber = double.Parse(Console.ReadLine());
-                var newBox = new Box<double>(doubleNumber);
+                double number = double.Parse(Console.ReadLine());
+                var newBox = new Box<double>(number);
                 listOfBoxes.Add(newBox);
             }
-            double numberToCompare = double.Parse(Console.ReadLine());
-            var BoxOfNumberToCompare = new Box<double>(numberToCompare);
-            int count= CountGreaterValues(listOfBoxes, BoxOfNumberToCompare);
+
+            double Othernumber = double.Parse(Console.ReadLine());
+            var elementToCompare = new Box<double>(Othernumber);
+            int count = CauntGreaterElementsThanValue(listOfBoxes, elementToCompare);
             Console.WriteLine(count);
         }
 
-        public static int CountGreaterValues<T>(List<T> listWithBoxes, T BoxOfNumberToCompare)
-            where T:IComparable<T>
+
+        public static int CauntGreaterElementsThanValue<T>(List<T> listOfboxes,T elementToCompare)
+            where T: IComparable<T>
         {
             int count = 0;
-            foreach (var box in listWithBoxes)
+            foreach (var box in listOfboxes)
             {
-                if(box.CompareTo(BoxOfNumberToCompare) > 0)
+                if(box.CompareTo(elementToCompare) > 0)
                 {
                     count++;
                 }
             }
 
             return count;
-        }
+        }        
     }
 }

@@ -23,11 +23,11 @@ namespace GenericCountMethodString
         }
 
 
-        public static int CountGreaterValues<T>(List<T> list, T elementToCompare)
+        public static int CountGreaterValues<T>(List<T> listOfBoxes, T elementToCompare)
             where T : IComparable<T>
         {
             int count = 0;
-            foreach (var box in list)
+            foreach (var box in listOfBoxes)
             {
                 if (box.CompareTo(elementToCompare) > 0)
                 {
