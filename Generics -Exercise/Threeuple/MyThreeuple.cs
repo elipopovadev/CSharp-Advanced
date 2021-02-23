@@ -14,7 +14,7 @@ namespace Threeuple
         public T2 SecondElement { get; set; }
         public T3 ThirdElement { get; set; }
 
-        public override string ToString()
+        public override string ToString()   
         {
             return $"{this.FirstElement} -> {this.SecondElement} -> {this.ThirdElement}";
         }
