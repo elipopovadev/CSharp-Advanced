@@ -12,7 +12,20 @@ namespace GenericCountMethodString
 
         public int CompareTo(Box<T> otherBox)
         {
-            return this.Data.CompareTo(otherBox.Data);
+            if (this.Data.CompareTo(otherBox.Data) > 0)
+            {
+                return 1;
+            }
+
+            else if (this.Data.CompareTo(otherBox.Data) < 0)
+            {
+                return -1;
+            }
+
+            else // they are equal
+            {
+                return 0;
+            }
         }
 
         public override string ToString()
