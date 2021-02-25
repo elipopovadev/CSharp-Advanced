@@ -29,7 +29,7 @@ namespace IteratorsAndComparators
                 return -1;
             }
 
-            else // the years are equal
+            else
             {
                 return this.Title.CompareTo(other.Title);
             }
