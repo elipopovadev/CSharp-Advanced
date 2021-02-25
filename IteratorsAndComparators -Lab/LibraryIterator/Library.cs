@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace IteratorsAndComparators
 {
@@ -7,7 +8,7 @@ namespace IteratorsAndComparators
     {
         public Library(params Book[] books)
         {
-            this.Books = new List<Book>(books);
+            this.Books = books.ToList();
         }
 
         public List<Book> Books { get; }

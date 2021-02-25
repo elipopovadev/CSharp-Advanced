@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace IteratorsAndComparators
 {
@@ -8,7 +9,7 @@ namespace IteratorsAndComparators
         {
             this.Title = title;
             this.Year = year;
-            this.Authors = new List<string>(authors);
+            this.Authors = authors.ToList();
         }
 
         public string Title { get; }
