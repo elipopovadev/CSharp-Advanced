@@ -18,20 +18,7 @@ namespace IteratorsAndComparators
 
             else // the titles are equal
             {
-                if (firstBook.Year.CompareTo(secondBook.Year) > 0)
-                {
-                    return -1;
-                }
-
-                else if(firstBook.Year.CompareTo(secondBook.Year) < 0)
-                {
-                    return 1;
-                }
-
-                else
-                {
-                    return 0;
-                }
+                return firstBook.Year.CompareTo(secondBook.Year);
             }
         }
     }

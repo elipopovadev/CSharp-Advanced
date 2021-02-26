@@ -19,12 +19,12 @@ namespace IteratorsAndComparators
 
         public int CompareTo(Book other)
         {
-            if(this.Year > other.Year)
+            if (this.Year.CompareTo(other.Year) > 0)
             {
                 return 1;
             }
 
-            else if(this.Year < other.Year)
+            else if(this.Year.CompareTo(other.Year) < 0)
             {
                 return -1;
             }

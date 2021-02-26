@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace IteratorsAndComparators
 {
@@ -8,14 +7,14 @@ namespace IteratorsAndComparators
     {
         public Library(params Book[] books)
         {
-            this.Books = new HashSet<Book>(books);
+            this.Books = new SortedSet<Book>(books);
         }
 
-        public HashSet<Book> Books { get; }
+        public SortedSet<Book> Books { get; set; }
 
         public IEnumerator<Book> GetEnumerator()
         {
-            foreach (var book in this.Books.Reverse())
+            foreach (var book in this.Books)
             {
                 yield return book;
             }
