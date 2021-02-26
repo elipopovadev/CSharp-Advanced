@@ -6,19 +6,15 @@ namespace IteratorsAndComparators
     {
         public int Compare(Book firstBook, Book secondBook)
         {
-           if(firstBook.Title.CompareTo(secondBook.Title) > 0)
+           if(firstBook.Title.CompareTo(secondBook.Title) != 0)
             {
-                return 1;
+                return firstBook.Title.CompareTo(secondBook.Title);
             }
 
-           else if(firstBook.Title.CompareTo(secondBook.Title) < 0)
-            {
-                return -1;
-            }
 
             else // the titles are equal
             {
-                return firstBook.Year.CompareTo(secondBook.Year);
+                return secondBook.Year.CompareTo(firstBook.Year);
             }
         }
     }
