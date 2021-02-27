@@ -14,38 +14,38 @@ namespace ListyIterator
 
             while (command != "END")
             {
-                if (command == "Move")
+                try
                 {
-                    Console.WriteLine(newListyIterator.Move());
-                }
+                    if (command == "Move")
+                    {
+                        Console.WriteLine(newListyIterator.Move());
+                    }
 
-                else if (command == "HasNext")
-                {
-                    Console.WriteLine(newListyIterator.HasNext());
-                }
+                    else if (command == "HasNext")
+                    {
+                        Console.WriteLine(newListyIterator.HasNext());
+                    }
 
-                else if (command == "Print")
-                {
-                    try
+                    else if (command == "Print")
                     {
                         newListyIterator.Print();
                     }
 
-                    catch (Exception ex)
+                    else if (command == "PrintAll")
                     {
-                        Console.WriteLine(ex.Message);
+                        var sb = new StringBuilder();
+                        foreach (var item in newListyIterator)
+                        {
+                            sb.Append(item);
+                            sb.Append(" ");
+                        }
+                        Console.WriteLine(sb);
                     }
                 }
 
-                else if (command == "PrintAll")
+                catch (Exception ex)
                 {
-                    var sb = new StringBuilder();
-                    foreach (var item in newListyIterator)
-                    {
-                        sb.Append(item);
-                        sb.Append(" ");
-                    }
-                    Console.WriteLine(sb);
+                    Console.WriteLine(ex.Message);
                 }
 
                 command = Console.ReadLine();
