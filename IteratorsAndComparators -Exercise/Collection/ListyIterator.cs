@@ -1,10 +1,10 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
-
 
 namespace ListyIterator
 {
-    public class ListyIterator<T>
+    public class ListyIterator<T> : IEnumerable<T>
     {
         private int currentIndex;
         public ListyIterator(List<T> collection)
@@ -47,6 +47,19 @@ namespace ListyIterator
             {
                 throw new InvalidOperationException("Invalid operation!");
             }         
+        }
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            foreach (var item in this.Collection)
+            {
+                yield return item;
+            }
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
         }
     }
 }
