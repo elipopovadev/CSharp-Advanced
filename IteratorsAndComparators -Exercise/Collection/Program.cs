@@ -33,13 +33,7 @@ namespace ListyIterator
 
                     else if (command == "PrintAll")
                     {
-                        var sb = new StringBuilder();
-                        foreach (var item in newListyIterator)
-                        {
-                            sb.Append(item);
-                            sb.Append(" ");
-                        }
-                        Console.WriteLine(sb);
+                        Console.WriteLine(string.Join(" ", newListyIterator));
                     }
                 }
 
