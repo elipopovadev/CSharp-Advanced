@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListyIterator", "ListyItera
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collection", "Collection\Collection.csproj", "{92C559DA-B5E4-4ADB-8CB8-245B328A8AA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stack", "Stack\Stack.csproj", "{078D3CE8-F8C6-4C69-B513-E4E59C525833}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{92C559DA-B5E4-4ADB-8CB8-245B328A8AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92C559DA-B5E4-4ADB-8CB8-245B328A8AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92C559DA-B5E4-4ADB-8CB8-245B328A8AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{078D3CE8-F8C6-4C69-B513-E4E59C525833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{078D3CE8-F8C6-4C69-B513-E4E59C525833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{078D3CE8-F8C6-4C69-B513-E4E59C525833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{078D3CE8-F8C6-4C69-B513-E4E59C525833}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
