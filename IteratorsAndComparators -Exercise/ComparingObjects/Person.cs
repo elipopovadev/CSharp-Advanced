@@ -22,17 +22,12 @@ namespace ComparingObjects
                 return this.Name.CompareTo(other.Name);
             }
 
-           else if (this.Age.CompareTo(other.Age) != 0)
+           if (this.Age.CompareTo(other.Age) != 0)
             {
                 return this.Age.CompareTo(other.Age);
             }
 
-           else if (this.Town.CompareTo(other.Town) != 0)
-            {
-               return this.Town.CompareTo(other.Town);
-            }
-
-            return 0;
+            return this.Name.CompareTo(other.Name);        
         }  
     }
 }
