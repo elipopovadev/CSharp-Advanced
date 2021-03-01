@@ -62,8 +62,7 @@ namespace LinkedListTraversal
                     this.Head = this.Tail = default;
                     this.Count = 0;
                     return true;
-                }
-                   
+                }                  
             }
 
             else if (this.Count > 1)
