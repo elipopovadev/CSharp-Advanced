@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cooking", "Cooking\Cooking.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selling", "Selling\Selling.csproj", "{45AC6CD4-139D-423F-954B-29B50926796E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Openning", "Openning\Openning.csproj", "{DD37D801-19EB-4E19-8BCE-A9560AD4AA85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{45AC6CD4-139D-423F-954B-29B50926796E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45AC6CD4-139D-423F-954B-29B50926796E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45AC6CD4-139D-423F-954B-29B50926796E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD37D801-19EB-4E19-8BCE-A9560AD4AA85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD37D801-19EB-4E19-8BCE-A9560AD4AA85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD37D801-19EB-4E19-8BCE-A9560AD4AA85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD37D801-19EB-4E19-8BCE-A9560AD4AA85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
