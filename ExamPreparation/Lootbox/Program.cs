@@ -26,7 +26,7 @@ namespace Lootbox
                     countClaimedItems += sum;
                 }
 
-                else
+                else if( sum % 2 != 0)
                 {
                     firstLoot.Enqueue(secondValue);
                     secondLoot.Pop();
