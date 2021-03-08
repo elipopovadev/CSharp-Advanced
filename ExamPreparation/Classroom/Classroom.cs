@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassroomProject
 {
-   public class Classroom
+    public class Classroom
     {
         private List<Student> students;
 
@@ -14,12 +14,12 @@ namespace ClassroomProject
             this.students = new List<Student>();
         }
 
-        public int Capacity{ get; set; }
-        public int Count { get { return students.Count; } }  
-        
+        public int Capacity { get; set; }
+        public int Count { get { return students.Count; } }
+
         public string RegisterStudent(Student student)
         {
-            if(this.students.Count < this.Capacity)
+            if (this.students.Count < this.Capacity)
             {
                 this.students.Add(student);
                 return $"Added student {student.FirstName} {student.LastName}";
@@ -30,7 +30,7 @@ namespace ClassroomProject
 
         public string DismissStudent(string firstName, string lastName)
         {
-            if(this.students.Any(s=>s.FirstName == firstName && s.LastName == lastName))
+            if (this.students.Any(s => s.FirstName == firstName && s.LastName == lastName))
             {
                 Student foundedStudent = this.students.Where(s => s.FirstName == firstName && s.LastName == lastName).First();
                 this.students.Remove(foundedStudent);
@@ -58,7 +58,7 @@ namespace ClassroomProject
                 return sb.ToString().TrimEnd();
             }
 
-            return $"No students enrolled for the subject";          
+            return $"No students enrolled for the subject";
         }
 
         public int GetStudentsCount()
@@ -68,9 +68,8 @@ namespace ClassroomProject
 
         public string GetStudent(string firstName, string lastName)
         {
-  
-                Student foundedStudent = this.students.Where(s => s.FirstName == firstName && s.LastName == lastName).FirstOrDefault();
-                return foundedStudent.ToString();
+            Student foundedStudent = this.students.Where(s => s.FirstName == firstName && s.LastName == lastName).FirstOrDefault();
+            return foundedStudent.ToString();
         }
     }
 }
