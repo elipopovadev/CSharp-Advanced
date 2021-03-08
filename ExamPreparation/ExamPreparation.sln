@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guild", "Guild\Guild.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling", "Scheduling\Scheduling.csproj", "{900E1D49-0F61-49D7-BBE9-6767DD51D445}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garden", "Garden\Garden.csproj", "{3D0EDC63-8983-4BE0-857F-B8438F96E7C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{900E1D49-0F61-49D7-BBE9-6767DD51D445}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{900E1D49-0F61-49D7-BBE9-6767DD51D445}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{900E1D49-0F61-49D7-BBE9-6767DD51D445}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0EDC63-8983-4BE0-857F-B8438F96E7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0EDC63-8983-4BE0-857F-B8438F96E7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0EDC63-8983-4BE0-857F-B8438F96E7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0EDC63-8983-4BE0-857F-B8438F96E7C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
