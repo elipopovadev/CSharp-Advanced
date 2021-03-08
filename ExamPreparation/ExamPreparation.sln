@@ -15,21 +15,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Selling", "Selling\Selling.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Openning", "Openning\Openning.csproj", "{DD37D801-19EB-4E19-8BCE-A9560AD4AA85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerWreaths", "FlowerWreaths\FlowerWreaths.csproj", "{E1B8AA8E-410E-451A-AADC-A30433BA8290}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowerWreaths", "FlowerWreaths\FlowerWreaths.csproj", "{E1B8AA8E-410E-451A-AADC-A30433BA8290}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bee", "Bee\Bee.csproj", "{0A1C0507-BFD9-4D0A-B1D4-8A4EE0CF60D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bee", "Bee\Bee.csproj", "{0A1C0507-BFD9-4D0A-B1D4-8A4EE0CF60D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VetClinic", "VetClinic\VetClinic.csproj", "{AB1C8D3A-7DAA-418D-8C41-01596D7DAC94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VetClinic", "VetClinic\VetClinic.csproj", "{AB1C8D3A-7DAA-418D-8C41-01596D7DAC94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lootbox", "Lootbox\Lootbox.csproj", "{C7817413-2945-4BC6-8D1D-A5B9F0076CD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lootbox", "Lootbox\Lootbox.csproj", "{C7817413-2945-4BC6-8D1D-A5B9F0076CD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Re-Volt", "Re-Volt\Re-Volt.csproj", "{88EB6395-1556-45D3-A4E3-BB4CC7D10184}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Re-Volt", "Re-Volt\Re-Volt.csproj", "{88EB6395-1556-45D3-A4E3-BB4CC7D10184}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guild", "Guild\Guild.csproj", "{3E82DD2C-C12D-4A84-99CE-930ACAD9C2D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Guild", "Guild\Guild.csproj", "{3E82DD2C-C12D-4A84-99CE-930ACAD9C2D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scheduling", "Scheduling\Scheduling.csproj", "{900E1D49-0F61-49D7-BBE9-6767DD51D445}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scheduling", "Scheduling\Scheduling.csproj", "{900E1D49-0F61-49D7-BBE9-6767DD51D445}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garden", "Garden\Garden.csproj", "{3D0EDC63-8983-4BE0-857F-B8438F96E7C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Garden", "Garden\Garden.csproj", "{3D0EDC63-8983-4BE0-857F-B8438F96E7C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classroom", "Classroom\Classroom.csproj", "{B175F993-E00A-417B-A50F-945DDC53EE6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{3D0EDC63-8983-4BE0-857F-B8438F96E7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D0EDC63-8983-4BE0-857F-B8438F96E7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D0EDC63-8983-4BE0-857F-B8438F96E7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B175F993-E00A-417B-A50F-945DDC53EE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B175F993-E00A-417B-A50F-945DDC53EE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B175F993-E00A-417B-A50F-945DDC53EE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B175F993-E00A-417B-A50F-945DDC53EE6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
